@@ -203,10 +203,10 @@ main{
 }
 
 #main4{
+    margin-top: 173px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid red;
     gap: 170px;
 }
 
@@ -269,6 +269,10 @@ main{
 
     .main3{
         padding-top: 60px;
+    }
+
+    #main4{
+        gap: 0;
     }
 
 }
