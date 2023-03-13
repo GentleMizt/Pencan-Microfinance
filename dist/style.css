@@ -32,7 +32,7 @@ body {
 
 #navbar .nav-link {
     transition: .3s all;
-    color: #000000;
+    color: #808081;    ;
 }
 
 #navbar .nav-link:hover {
