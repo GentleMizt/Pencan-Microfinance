@@ -90,21 +90,33 @@ header{
     justify-content: right;
 }
 
+main{
+    margin-top: 42px;
+}
+
 #main-flex{
     display: flex;
     gap: 20px;
 }
 
 #main1-row2{
-    background: url(./img/flex-bg.png);
-    background-repeat: no-repeat;
-    color: #FFF;
     border-radius: 20px;
     width: 671px;
     padding-left: 60px;
     padding-top: 172px;
     padding-right: 70px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
+}
+
+.first{
+    background: url(./img/flex-bg.png);
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+
+.second{
+    background: #DAFD83;
+    color: #F17829;
 }
 
 #main1-row2h {
@@ -120,9 +132,21 @@ header{
     margin-bottom: 10px;
 }
 
-main{
-    margin-top: 42px;
+#plussss {
+    display: flex;
+    justify-content: right;
+    
 }
+
+#main1-row1 img {
+    height: 100%;
+}
+
+.main-cnt2{
+    margin-top: 100px;
+}
+
+
 
 
 
