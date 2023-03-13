@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
 
 body {
     font-size: 14px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .img-responsive {
@@ -16,8 +18,11 @@ body {
 
 #navbar {
     font-size: 14px;
-    padding-top: 0px;
+    padding-top: 47px;
     padding-bottom: 0px;
+    color: #808081;
+    font-weight: bold;
+    position: relative;
 }
 
 #navbar .nav-item {
@@ -34,6 +39,23 @@ body {
     transition: .3s all;
     color: blue;
 }
+
+.nav1{
+    margin-left: 70px;
+}
+
+#btn-internet {
+    background: #1C9FF3;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    padding: 13px 34px;
+    margin-left: 50px;
+    position: relative;
+    top: -15px;
+}
+
 
 
 
