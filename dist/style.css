@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+#navbar {
+    font-size: 14px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#navbar .nav-item {
+    padding: 7px 10px;
+    transition: .3s all;
+}
+
+#navbar .nav-link {
+    transition: .3s all;
+    color: #000000;
+}
+
+#navbar .nav-link:hover {
+    transition: .3s all;
+    color: blue;
+}
+
+
+
+
+@media (max-width: 736px) {
+    
+	
+}
+
+
+
+
+
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) { /* STYLES GO HERE */
+
+
+	
+
+}
+
+
+
+@media (min-device-width : 737px)
+and	(max-device-width : 991px){
+	
+	 
+    
+	
+}
+
+
+@media only screen 
+and (min-device-width : 737px) 
+and (max-device-width : 767px) { /* STYLES GO HERE */
+
+
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+	
+	
+	
+  
+}
+
+
+
+
+@media (min-width:320px) and (max-width: 480px) { 
+	
+    
+    
+}
+
+
