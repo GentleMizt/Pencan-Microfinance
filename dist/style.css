@@ -88,6 +88,7 @@ header{
 .chat-container{
     display: flex;
     justify-content: right;
+    margin-top: 30px;
 }
 
 main{
@@ -146,8 +147,26 @@ main{
     margin-top: 100px;
 }
 
+.main-cnt3{
+    margin-top: 103px;
+    margin-bottom: 100px;   
+}
+
 .main-cnt2 p{
     color: #000;
+}
+
+.main2 {
+    background: #F5F5F5;
+    padding-top: 35px;
+    margin-bottom: 100px;
+}
+
+#main2h {
+    font-weight: 500;
+    font-size: 32px;
+    margin-top: 41px;
+    margin-bottom: 13px;
 }
 
 
