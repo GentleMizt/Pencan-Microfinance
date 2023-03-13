@@ -197,10 +197,42 @@ main{
     gap: 20px;
 }
 
-#main3r2 .left{
-    /* border: 1px solid red; */
-    margin-right: 15px;
+#main3r2{
+    display: flex;
+    gap: 16px;
 }
+
+#main4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.main4l{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.main4l h3{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.main4l-socials{
+    display: flex;
+    gap: 17.08px;
+}
+
+.main4r h3{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* #main3r2 .left{
+    margin-right: 15px;
+} */
 
 
 
