@@ -169,6 +169,34 @@ main{
     margin-bottom: 13px;
 }
 
+.main3 {
+    padding-top: 100px;
+}
+
+#main3h {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.main31 p {
+    font-size: 12px;
+    margin-top: 24px;
+    margin-bottom: 22px;
+}
+
+#main3r {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main3r1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
 
 
 
