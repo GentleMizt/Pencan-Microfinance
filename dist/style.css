@@ -85,14 +85,44 @@ header{
     margin-bottom: 39px;
 }
 
-/* .mbr p{
-    margin-top: 20px;
-    margin-bottom: 30px;
-} */
-.banner-img{
-    /* padding-left: 155px; */
+.chat-container{
+    display: flex;
+    justify-content: right;
 }
 
+#main-flex{
+    display: flex;
+    gap: 20px;
+}
+
+#main1-row2{
+    background: url(./img/flex-bg.png);
+    background-repeat: no-repeat;
+    color: #FFF;
+    border-radius: 20px;
+    width: 671px;
+    padding-left: 60px;
+    padding-top: 172px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+}
+
+#main1-row2h {
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#main1-row2s {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+main{
+    margin-top: 42px;
+}
 
 
 
