@@ -140,7 +140,7 @@ main{
 }
 
 #main1-row1 img {
-    height: 100%;
+    /* height: 100%; */
 }
 
 .main-cnt2{
@@ -159,7 +159,6 @@ main{
 .main2 {
     background: #F5F5F5;
     padding-top: 35px;
-    margin-bottom: 100px;
 }
 
 #main2h {
@@ -171,6 +170,7 @@ main{
 
 .main3 {
     padding-top: 100px;
+    /* border: 1px solid red; */
 }
 
 #main3h {
@@ -188,12 +188,18 @@ main{
 #main3r {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #main3r1 {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+#main3r2 .left{
+    /* border: 1px solid red; */
+    margin-right: 15px;
 }
 
 
@@ -209,6 +215,29 @@ main{
     .banner-img{
         margin-top: 50px;
     }
+
+    #main-flex{
+        flex-direction: column;
+    }
+
+    #main1-row2 {
+        width: 100%;
+        padding-left: 60px;
+        padding: 20px;    
+    }
+
+    #main2h{
+        margin-top: 30px;
+    }
+
+    #main2-col img{
+        margin-bottom: 44px;
+    }
+
+    .main3{
+        padding-top: 60px;
+    }
+
 }
 
 
