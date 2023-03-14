@@ -332,8 +332,22 @@ main{
 }
 
 footer{
-    border: 1px solid red;
+    display: flex;
 }
+
+footer li{
+    margin-top: 10px;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+footer .footer-cnt{
+    margin-left: 152.6px;
+    flex-basis: 80%;
+}
+
 
 .footer h4{
     font-weight: 500;
