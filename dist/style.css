@@ -10,7 +10,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-header{
+.home-header{
     background-image: url(./img/banner-inn.png);
     background-repeat: no-repeat;
     background-size: contain;
