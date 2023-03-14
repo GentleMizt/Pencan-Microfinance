@@ -311,7 +311,6 @@ main{
    display: flex;
    justify-content: space-between;
    border-radius: 10px;
-   border: none;
    outline: none;
 }
 
@@ -320,7 +319,7 @@ main{
     border: none;
     outline: none;
     padding: 10px 22px;
-
+    border-radius: 10px;
 }
 
 .input-field button{
