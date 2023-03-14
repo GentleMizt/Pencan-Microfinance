@@ -250,6 +250,19 @@ main{
 
 .img-slider{
     margin-top: 20px;
+    flex-basis: 100%;
+}
+
+.slide-cont{
+    display: flex;
+    align-items: center;
+}
+
+.slide-arrow{
+    z-index:31;
+    margin-left: -20px;
+    width: 46px;
+    height: 46px;
 }
 /* #main3r2 .left{
     margin-right: 15px;
