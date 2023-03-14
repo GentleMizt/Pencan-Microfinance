@@ -320,6 +320,20 @@ main{
         gap: 0;
     }
 
+    .img-slider{
+        flex-direction: row;
+        flex-basis: 100%;
+    }
+
+    .slide-arrow{
+        margin-left: -10px;
+        width: 26px;
+        height: 26px;
+    }
+
+    .main6-section{
+        margin-top: 71px;
+    }
     
 
 }
