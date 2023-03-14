@@ -443,7 +443,7 @@ footer p{
         color: #F17829;
     }
 
-    footer img{
+    .footer-logo img{
         width: 70%;
     }
 }
