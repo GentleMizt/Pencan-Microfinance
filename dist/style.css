@@ -280,6 +280,57 @@ main{
     margin-bottom: 12px;
 }
 
+.main7-section{
+    margin-top: 100px;
+}
+
+.main7-cont{
+    padding: 94px 0;
+    background: #1C9FF3;
+    border-radius: 10px;
+}
+
+#main7h{
+    color: #fff;
+    ont-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+#main7p{
+    color: #DAFD83;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.input-field{
+   width: 50%;
+   background-color: #fff;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   border-radius: 10px;
+   border: none;
+   outline: none;
+}
+
+.input-field input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 22px;
+
+}
+
+.input-field button{
+    background: #DAFD83;
+    padding: 10px 29px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
 
 
 
