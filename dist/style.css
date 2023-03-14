@@ -265,8 +265,12 @@ main{
     height: 46px;
 }
 
-.main6{
+.main6-section{
     margin-top: 111px;
+}
+
+#main6{
+    margin-right: 172px;
 }
 
 #main6h{
