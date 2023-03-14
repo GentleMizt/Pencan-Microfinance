@@ -282,6 +282,7 @@ main{
 
 .main7-section{
     margin-top: 100px;
+    margin-bottom: 83px;
 }
 
 .main7-cont{
@@ -328,6 +329,10 @@ main{
     border-radius: 10px;
     border: none;
     outline: none;
+}
+
+footer{
+    border: 1px solid red;
 }
 
 
