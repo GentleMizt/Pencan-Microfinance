@@ -140,7 +140,7 @@ main{
 }
 
 #main1-row1 img {
-    /* height: 100%; */
+    width: 100%;
 }
 
 .main-cnt2{
@@ -264,9 +264,17 @@ main{
     width: 46px;
     height: 46px;
 }
-/* #main3r2 .left{
-    margin-right: 15px;
-} */
+
+.main6{
+    margin-top: 111px;
+}
+
+#main6h{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 12px;
+}
 
 
 
@@ -307,6 +315,8 @@ main{
     #main4{
         gap: 0;
     }
+
+    
 
 }
 
