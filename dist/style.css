@@ -54,6 +54,10 @@ header{
     margin-left: 70px;
 }
 
+.dropdown{
+    color: #1C9FF3;
+}
+
 #btn-internet {
     background: #1C9FF3;
     border-radius: 10px;
