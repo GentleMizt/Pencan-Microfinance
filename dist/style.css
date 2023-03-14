@@ -240,8 +240,16 @@ main{
     font-size: 14px;
 }
 
-.main5-span img{
-    
+.m5-img{
+    margin: 0 24px;
+}
+
+.m5-img2{
+    margin-right: 14px;
+}
+
+.img-slider{
+    margin-top: 20px;
 }
 /* #main3r2 .left{
     margin-right: 15px;
