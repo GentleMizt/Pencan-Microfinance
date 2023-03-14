@@ -64,6 +64,7 @@ header{
     margin-left: 115px;
     position: relative;
     top: -15px;
+    transition: .5s;
 }
 
 #main-ban-head{
@@ -83,6 +84,12 @@ header{
     padding: 13px 34px;
     margin-top: 30px;
     margin-bottom: 39px;
+    transition: .5s;
+}
+
+#main-btn:hover, #btn-internet:hover{
+    background: #DAFD83;
+    color: #F17829;
 }
 
 .chat-container{
@@ -281,6 +288,10 @@ main{
     font-size: 24px;
     line-height: 30px;
     margin-bottom: 12px;
+}
+
+.main6-img-div{
+    margin-left: -100px
 }
 
 .main7-section{
