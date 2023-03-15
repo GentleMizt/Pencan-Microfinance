@@ -158,6 +158,7 @@ main{
 
 #main1-row1 img {
     width: 100%;
+    height: 100%;
 }
 
 .main-cnt2{
@@ -220,19 +221,22 @@ main{
 }
 
 #main4{
+    border: 1px solid red;
     margin-top: 17.3rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 17.0rem;
-    min-width: 51rem;
+    /* gap: 17.0rem; */
+    width: 100%;
+    /* min-width: 51rem; */
 }
 
 .main4l{
     display: flex;
     align-items: center;
     gap: 2.4rem;
-    flex-basis: 45%;
+    flex-basis: 50%;
+    border: 1px solid blue;
 }
 
 .main4l h3{
@@ -246,12 +250,17 @@ main{
 }
 
 .main4r{
-    flex-basis: 45%;
+    flex-basis: 50%;
+    border: 1px solid black;
+    /* position: relative; */
 }
 
 .main4r h3{
     font-weight: 500;
     font-size: 1.4rem;
+    position: relative;
+    right: -70%;
+    /* top: 50%; */
 }
 
 .main5{
