@@ -376,6 +376,7 @@ footer{
 
 #footer{
     display: flex;
+    justify-content: space-between;
 }
 
 footer li{
@@ -641,12 +642,6 @@ footer p{
     
     .input-field{
         width: 80%;
-    }
-
-    footer .footer-cnt{
-        margin-left: 0;
-        flex-basis: 100%;
-        width: 100%;
     }
 
     footer li{
