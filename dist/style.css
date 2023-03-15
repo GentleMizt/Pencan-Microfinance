@@ -498,6 +498,27 @@ footer p{
     margin-top: 52px;
 }
 
+.abt-main-cnt3{
+    background: #DAFD83;
+}
+
+.mcnt3-bgblue{
+    background-color: #1C9FF3;
+    color: #fff;
+    padding: 82px 129px 72px 199px;
+}
+
+.mcnt3-h p{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.p-finance{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+}
 
 
 /*  ---------------------------------------------------- ABOUT US STYLING ENDS HERE ----------------------------------------------------------- */
