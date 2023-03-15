@@ -392,6 +392,34 @@ footer p{
 
 
 /*     ------------------------------------------------------------------------ ABOUT US STYLING BEGINS HERE ---------------------------------------------------------------------- */
+#main-abth{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.abt-main-banner{
+    margin-top: 95px;
+}
+
+.abr p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.main-abt-img{
+    margin-top: -65px;
+}
+
+.main-abt-img img{
+    width: 100%;
+}
+
+.mobile{
+    display: none;
+}
 
 
 
@@ -485,8 +513,29 @@ footer p{
 
 
     /* --------------------------------------------------------- ABOUT US MEDIA QUERY BEGINS HERE --------------------------------------------------------------- */
+    .mobile{
+        display: block;
+    }
 
+    .desktop{
+        display: none;
+    }
 
+    .main-abt-img{
+        margin-top: -160px;
+        margin-bottom: 50px;
+    }
+
+    #main-abth{
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .abr p{
+        margin-top: 30px;
+    }
+    
 }
 
 
