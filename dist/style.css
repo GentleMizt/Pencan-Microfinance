@@ -250,17 +250,13 @@ main{
 }
 
 .main4r{
-    flex-basis: 50%;
+    flex-basis: 15.5%;
     border: 1px solid black;
-    /* position: relative; */
 }
 
 .main4r h3{
     font-weight: 500;
     font-size: 1.4rem;
-    position: relative;
-    right: -70%;
-    /* top: 50%; */
 }
 
 .main5{
@@ -617,12 +613,25 @@ footer p{
     }
 
     .main4l{
-        flex-basis: 60%;
-        margin-right: 5rem
+        flex-basis: 70%;
+        gap: .5rem;
+        margin-right: 1rem;
+    }
+
+    .main4l h3{
+        font-size: 1.3rem;
+    }
+
+    .main4l-socials{
+        gap: .5rem;
     }
 
     .main4r{
-        flex-basis: 35%;
+        flex-basis: 54%;
+    }
+
+    .main4r h3{
+        font-size: 1.3rem;
     }
 
     .img-slider{
