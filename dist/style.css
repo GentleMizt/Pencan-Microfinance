@@ -502,6 +502,9 @@ footer p{
     background: #DAFD83;
 }
 
+.mcnt3-flex{
+    display: flex;
+}
 .mcnt3-bgblue{
     background-color: #1C9FF3;
     color: #fff;
