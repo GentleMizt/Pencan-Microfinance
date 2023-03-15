@@ -465,6 +465,19 @@ footer p{
     display: none;
 }
 
+.mcnt2-h p{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: #1C9FF3;
+}
+
+.mcnt2-vimg img{
+    margin-left: 156px;
+    margin-top: -10px;
+    width: 18%;
+}
+
 
 
 
@@ -590,7 +603,7 @@ footer p{
     .mcnt1-p1, .mcnt1-p2{
         width: 90%;
     }
-    
+
     .scnd-in-cnt1{
         display: none;
     }
