@@ -225,12 +225,15 @@ main{
     align-items: center;
     justify-content: space-between;
     gap: 17.0rem;
+    border: 1px solid red;
 }
 
 .main4l{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 2.4rem;
+    flex-basis: 45%;
+    border: 1px solid blue;
 }
 
 .main4l h3{
@@ -240,7 +243,12 @@ main{
 
 .main4l-socials{
     display: flex;
-    gap: 17.0.8rem;
+    gap: 1.78rem;
+}
+
+.main4r{
+    flex-basis: 45%;
+    border: 1px solid black;
 }
 
 .main4r h3{
@@ -697,31 +705,24 @@ footer p{
     .mcnt3-bgblue{
         padding: 8rem 12.9rem 7.2rem 5.5rem;
     }
+
     .mcnt3-bgblue2{
         padding: 8rem 12.9rem 7.2rem 5.5rem;
     }
 
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /* --------------------------------------------------------------ABOUT US MEDIA QUERY ENDS HERE --------------------------------------------------------- */
 }
 
-
+@media (max-width: 576px){
+    .slide-cont{
+        /* border: 1px solid red; */
+    }
+    .img-slider{
+        /* border: 1px solid blue; */
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+}
 
 
 
