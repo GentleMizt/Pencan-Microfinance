@@ -221,14 +221,12 @@ main{
 }
 
 #main4{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 17.3rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* gap: 17.0rem; */
     width: 100%;
-    /* min-width: 51rem; */
 }
 
 .main4l{
@@ -236,7 +234,7 @@ main{
     align-items: center;
     gap: 2.4rem;
     flex-basis: 50%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .main4l h3{
@@ -250,8 +248,8 @@ main{
 }
 
 .main4r{
-    flex-basis: 15.5%;
-    border: 1px solid black;
+    flex-basis: 25.5%;
+    /* border: 1px solid black; */
 }
 
 .main4r h3{
@@ -393,12 +391,6 @@ footer a{
     font-size: 14px;
     line-height: 30px;
 }
-
-footer .footer-cnt{
-    margin-left: 152.6px;
-    flex-basis: 80%;
-}
-
 
 footer h4{
     font-weight: 500;
@@ -627,11 +619,11 @@ footer p{
     }
 
     .main4r{
-        flex-basis: 54%;
+        flex-basis: 50%;
     }
 
     .main4r h3{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .img-slider{
@@ -662,24 +654,37 @@ footer p{
         width: 80%;
     }
 
-    footer li{
-        margin-top: 0;
+    #footer{
+        flex-direction: column;
     }
+
+    footer li{
+        margin-top: .6rem;
+    }
+
     footer a{
-        font-size: 7.5px;
+        font-size: 1.5rem;
         line-height: 30px;
     }
 
     footer h4{
         font-weight: 500;
-        font-size: 12px;
+        font-size: 2.8rem;
         line-height: 30px;
         color: #F17829;
+        margin-top: 1.5rem;
     }
 
     .footer-logo img{
-        width: 70%;
+        width: 50%;
     }
+
+    .footer-child{
+        text-align: center;
+        margin-top: 2rem;
+        /* border: 1px solid blue; */
+    }
+
 
 
     /* --------------------------------------------------------- ABOUT US MEDIA QUERY BEGINS HERE --------------------------------------------------------------- */
