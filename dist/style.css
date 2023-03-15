@@ -421,6 +421,43 @@ footer p{
     display: none;
 }
 
+.mcnt-ryt{
+    padding: 122px 0;
+}
+
+.mcnt1-h{
+    color: #1C9FF3;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.mcnt1-img img{
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
+.mcnt1-p1{
+    margin-top: 10.5px;
+}
+
+.mcnt1-p2{
+    margin-top: 40px;
+}
+.mcnt1-p1, .mcnt1-p2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    width: 80%;
+}
+
+
+
+
+
+
+/*  ---------------------------------------------------- ABOUT US STYLING ENDS HERE ----------------------------------------------------------- */
+
 
 
 @media (max-width: 736px) {
@@ -535,7 +572,24 @@ footer p{
     .abr p{
         margin-top: 30px;
     }
-    
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* --------------------------------------------------------------ABOUT US MEDIA QUERY ENDS HERE --------------------------------------------------------- */
 }
 
 
