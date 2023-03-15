@@ -422,7 +422,8 @@ footer p{
 }
 
 .mcnt-ryt{
-    padding: 122px 0;
+    padding-top: 122px;
+    padding-bottom: 122px;
 }
 
 .mcnt1-h{
@@ -432,7 +433,7 @@ footer p{
     line-height: 40px;
 }
 
-.mcnt1-img img{
+.mcnt1-vimg img{
     margin-left: 20px;
     margin-top: -30px;
 }
@@ -449,6 +450,16 @@ footer p{
     font-size: 14px;
     line-height: 25px;
     width: 80%;
+}
+
+.scnd-in-cnt1{
+    margin-top: 100px;
+}
+
+.scnd-vimg{
+    margin-left: 50px;
+    margin-top: 20px;
+
 }
 
 
