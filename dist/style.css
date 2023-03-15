@@ -225,15 +225,13 @@ main{
     align-items: center;
     justify-content: space-between;
     gap: 17.0rem;
-    border: 1px solid red;
 }
 
 .main4l{
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     gap: 2.4rem;
     flex-basis: 45%;
-    border: 1px solid blue;
 }
 
 .main4l h3{
@@ -594,6 +592,13 @@ footer p{
 
     #main4{
         gap: 0;
+    }
+
+    .main4l{
+        flex-basis: 60%;
+    }
+    .main4r{
+        flex-basis: 40%;
     }
 
     .img-slider{
