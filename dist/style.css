@@ -618,6 +618,14 @@ footer p{
         margin-top: 30px;
     }
 
+    .abt-main-cnt1{
+        margin-top: 50px;
+    }
+
+    #amcnt1-img img{
+        width: 100%;
+    }
+
     .mcnt1-p1, .mcnt1-p2{
         width: 90%;
     }
@@ -628,6 +636,10 @@ footer p{
 
     .scnd-cnt1-mobile{
         display: block;
+    }
+
+    .marg-top{
+        margin-top: 40px;
     }
 
    
