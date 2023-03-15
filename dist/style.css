@@ -459,9 +459,11 @@ footer p{
 .scnd-vimg{
     margin-left: 50px;
     margin-top: 20px;
-
 }
 
+.scnd-cnt1-mobile{
+    display: none;
+}
 
 
 
@@ -582,6 +584,14 @@ footer p{
 
     .abr p{
         margin-top: 30px;
+    }
+
+    .scnd-in-cnt1{
+        display: none;
+    }
+
+    .scnd-cnt1-mobile{
+        display: block;
     }
 
    
