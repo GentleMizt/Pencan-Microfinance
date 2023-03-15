@@ -476,8 +476,23 @@ footer p{
     margin-left: 156px;
     margin-top: -10px;
     width: 18%;
+    margin-bottom: 61.5px;
 }
 
+.mcnt2-p1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1C9FF3;
+    margin-top: 10px;
+}
+
+.mcnt2-p2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 4px;
+}
 
 
 
