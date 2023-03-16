@@ -867,6 +867,23 @@ input{
         margin-bottom: 44px;
     }
 
+    .d-desktop{
+        align-items: center;
+        padding-bottom: 3rem;
+    }
+
+    .D-download{
+        flex-basis: 60%;
+    }
+
+    .d-img{
+        margin-right: 4rem;
+    }
+    
+    .d-img img{
+        margin-top: 4rem;
+    }
+
     .main3{
         padding-top: 60px;
     }
@@ -1194,13 +1211,24 @@ and (max-device-width : 767px) { /* STYLES GO HERE */
         width: 200%;
     }
 
-    
+    .D-download{
+        margin-right: 0;
+    }    
     .d-mobile{
         display: block;
     }
     
     .d-desktop{
         display: none;
+    }
+
+    #main2-col img{
+        margin-bottom: 1rem;
+    }
+
+    .bqr{
+        text-align: center;
+        padding: 2rem 0;
     }
 }
 
