@@ -162,6 +162,7 @@ body {
 
 .get-div{
     display: flex;
+    gap: 1rem;
 }
 
 .get-img{
@@ -174,7 +175,6 @@ body {
 
 .get1, .get2, .get3{
     flex-basis: 31%;
-    margin-right: 1.8rem;
 }
 
 .get1, .get2{
@@ -1167,10 +1167,14 @@ and (max-device-width : 767px) { /* STYLES GO HERE */
 
 
 
-@media (min-width:320px) and (max-width: 480px) { 
-	
-    
-    
+@media (min-width:320px) and (max-width: 480px) {    
+    #main-btn{
+        margin-bottom: 8rem;
+    }
+
+    .get-div{
+        border: 1px solid red;
+    }
 }
 
 
