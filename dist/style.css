@@ -1204,7 +1204,8 @@ and (max-device-width : 767px) { /* STYLES GO HERE */
     }
 
     .r-img{
-        margin-bottom: 1rem;
+        /* margin-bottom: 1rem; */
+        /* margin-right: -.1rem; */
     }
 
     .get-img img{
