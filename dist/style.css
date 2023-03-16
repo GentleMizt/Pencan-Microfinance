@@ -77,18 +77,22 @@ body {
     color: #808081;    ;
 }
 
+.links a{
+    margin-right: 2.6rem;
+    /* border: 1px solid red; */
+}
 #navbar .nav-link:hover {
     transition: .3s all;
     color: #1C9FF3;
 }
 
 .logo{
-    /* margin-left: 100px; */
     position: relative;
-    top: -1.1rem   
+    top: -1.1rem;
 }
+
 .nav1{
-    margin-left: 18.5rem;
+    margin-left: 8.5rem;
 }
 
 .dropdown{
@@ -102,7 +106,7 @@ body {
     outline: none;
     color: #FFFFFF;
     padding: 1.3rem 3.4rem;
-    margin-left: 11.5rem;
+    margin-left: 5.5rem;
     position: relative;
     top: -1.5rem;
     transition: .5s;
