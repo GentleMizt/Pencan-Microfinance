@@ -581,6 +581,9 @@ footer p{
 
 .contact-form-sec{
     margin-top: 14.3rem;
+    box-shadow: 0px 0px 60px 30px rgba(0, 0, 0, 0.03);
+    padding-left: 0;
+    border-radius: 1.0rem
 }
 
 .cf-flex{
@@ -600,11 +603,15 @@ footer p{
     flex-basis: 47%;
 }
 
-.input label{
+.input label, .input-msg label{
     font-weight: 500;
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 1.2rem;
+    line-height: 2.0rem;
     color: #8D8D8D;
+}
+
+.input-msg input{
+    padding: 0 0 1.08rem 0;
 }
 
 input{
@@ -616,6 +623,17 @@ input{
 
 .top{
     margin-top: 2rem;
+    margin-bottom: 4.6rem;
+}
+
+::placeholder{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+}
+
+#c-form-btn{
+    
 }
 
 
