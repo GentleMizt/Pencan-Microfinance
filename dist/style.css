@@ -579,19 +579,44 @@ footer p{
     line-height: 2.7rem;
 }
 
-.contact-form{
-    border: 1px solid blue;
-}
-form{
-    display: flex;
-    flex-wrap: wrap;
-}
-.input{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid red;
+.contact-form-sec{
+    margin-top: 14.3rem;
 }
 
+.cf-flex{
+    display: flex;
+}
+
+.c-flex-form{
+    padding: 5.9rem 2.3rem 0 4.8rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    flex-basis: 47%;
+}
+
+.input label{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #8D8D8D;
+}
+
+input{
+    border: none;
+    outline: 0;
+    width: 100%;
+    border-bottom: 1px solid  #8D8D8D;
+}
+
+.top{
+    margin-top: 2rem;
+}
 
 
 
