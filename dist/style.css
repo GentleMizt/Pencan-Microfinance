@@ -635,6 +635,7 @@ input{
 
 #c-form-btn{
     background: #39ACF4;
+    color: #fff;
     box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.12);
     border-radius: .5rem;
     outline: none;
