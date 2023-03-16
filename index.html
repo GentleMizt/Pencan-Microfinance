@@ -38,6 +38,9 @@
         </script>
       </head>
 <body>
+  <div id="preloader">
+    <div id="spinner"><img src="./dist/img/splashLogo.png"></div>
+  </div>
   <header class="home-header">
 
     <nav class="navbar navbar-expand-md sticky-top navbar-light" id="navbar">
@@ -368,7 +371,14 @@
 
 
 
+  <script>
+    console.log('Hello Lankcer');
 
+    window.addEventListener("load", function() {
+      var preloader = document.getElementById('preloader');
+      preloader.style.display = 'none';
+    });
+  </script>
 
 </body>
 </html>

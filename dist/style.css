@@ -16,11 +16,29 @@ body {
 }
 
 .container{
-    /* border: 1px solid red; */
     padding-right: 0;
     padding-left:  0;
     width: 90%;
 }
+
+#preloader{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(./img/splash.png);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#spinner {
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    border-top-color: #007bff;
+    border: none;
+    animation: spin 1s ease-in-out infinite;
+}
+
 .home-header{
     background-image: url(./img/banner-inn.png);
     background-repeat: no-repeat;
@@ -118,6 +136,7 @@ body {
     position: fixed;
     /* top: 50%; */
     bottom: 5%;
+    z-index: -1;
 }
 
 main{
@@ -419,6 +438,12 @@ footer p{
     line-height: 30px;
 }
 
+
+@keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+}
 
 
 
@@ -793,7 +818,7 @@ input{
     #main7p{
         font-size: 1rem;
     }
-    
+
     .input-field{
         width: 80%;
     }
