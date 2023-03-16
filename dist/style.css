@@ -12,13 +12,21 @@ html{
 body {
     font-size: 1.4rem;
     font-family: 'Poppins', sans-serif;
+    max-width: 100%;
 }
 
+.container{
+    /* border: 1px solid red; */
+    padding-right: 0;
+    padding-left:  0;
+    width: 90%;
+}
 .home-header{
     background-image: url(./img/banner-inn.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .img-responsive {
     width: 100%;
     height: auto;
@@ -336,6 +344,9 @@ main{
     border-radius: 10px;
 }
 
+.main7-head{
+    text-align: center;
+}
 #main7h{
     color: #fff;
     font-weight: 500;
@@ -773,6 +784,14 @@ input{
 
     .main6-img-div{
         margin-left: 0;
+    }
+    
+    #main7h{
+        font-size: 1.9rem;
+    }
+
+    #main7p{
+        font-size: 1rem;
     }
     
     .input-field{
