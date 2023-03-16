@@ -591,6 +591,7 @@ footer p{
 }
 
 .c-flex-form{
+    position: relative;
     padding: 5.9rem 2.3rem 0 4.8rem;
 }
 
@@ -639,6 +640,9 @@ input{
     outline: none;
     border: none;
     padding: 1.5rem 4.8rem;
+    position: absolute;
+    top: 48rem;
+    left: 46.9rem;
 }
 
 
