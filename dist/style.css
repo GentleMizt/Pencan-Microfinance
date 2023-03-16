@@ -8,7 +8,6 @@
 html{
     font-size: 10px;
 }
-
 body {
     font-size: 1.4rem;
     font-family: 'Poppins', sans-serif;
@@ -23,10 +22,14 @@ body {
 
 #preloader{
     position: fixed;
-    width: 100%;
-    height: 100vh;
-    background-image: url(./img/splash.png);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background: url(./img/splash.png);
+    /* background: red; */
     background-size: cover;
+    object-position: center;
     background-repeat: no-repeat;
     z-index: 9999;
     display: flex;
@@ -36,6 +39,7 @@ body {
 
 #spinner img{
     opacity: 0;
+    width: 100%;
     animation: fadeInOut 3s infinite;
 }
 
@@ -838,6 +842,17 @@ input{
 /*  ---------------------------------------------------- CONTACT US STYLING ENDS HERE ------------------------------------------------------- */
 
 @media (max-width: 736px) {
+    #preloader{
+        height: 100vh;
+    }
+
+    #spinner img{
+        position: absolute;
+        width: 50%;
+        top: 30%;
+        left: 23%;
+    }
+
     .nav1, #btn-internet{
         margin-left: 0;
     }

@@ -1,8 +1,8 @@
-    window.addEventListener("load", function() {
-        let loader = document.getElementById('preloader');
-        console.log('load event triggered');
-        loader.style.display = 'none';
-    });
+    // window.addEventListener("load", function() {
+    //     let loader = document.getElementById('preloader');
+    //     console.log('load event triggered');
+    //     loader.style.display = 'none';
+    // });
 
     let bannerImages = [
         './dist/img/banner1.png',
