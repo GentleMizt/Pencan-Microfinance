@@ -646,9 +646,27 @@ input{
     left: 46.9rem;
 }
 
+.cards-sec{
+    margin-top: 8rem;
+}
 
+.card-p1{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+}
 
+.card-p2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
 
+.card-p1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
 
 
 
