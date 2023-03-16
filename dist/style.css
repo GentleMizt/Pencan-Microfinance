@@ -298,6 +298,23 @@ main{
     margin-bottom: 3rem;
 }
 
+.d1{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.D-download{
+    margin-right: 3.9rem;
+}
+
+.bqr{
+    margin-top: 1rem;
+}
+
+.d-flex{
+    display: flex;
+}
+
 .main3 {
     padding-top: 10.0rem;
     /* border: .1rem solid red; */
