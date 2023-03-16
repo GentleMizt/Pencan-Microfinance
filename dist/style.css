@@ -561,7 +561,36 @@ footer p{
 /*  ---------------------------------------------------- ABOUT US STYLING ENDS HERE ----------------------------------------------------------- */
 
 /*  ---------------------------------------------------- CONTACT US STYLING BEGINS HERE ------------------------------------------------------- */
+.contact-head{
+    text-align: center;
+    margin-top: 16.4rem;
+}
 
+.contact-head h2{
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 6.0rem;
+    color: #1C9FF3;
+}
+
+.contact-head p{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+
+.contact-form{
+    border: 1px solid blue;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
 
 
 
