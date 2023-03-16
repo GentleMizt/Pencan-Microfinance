@@ -28,6 +28,8 @@ body {
     /* background: url(./img/splash.png); */
     /* background: red; */
     background-image: url(./img/splash.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     z-index: 9999;
     display: flex;
     justify-content: center;
