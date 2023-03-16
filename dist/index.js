@@ -1,7 +1,3 @@
-    console.log('Hello');
-    // let loader = document.getElementById('preloader');
-    // loader.style.display = 'block';
-
     window.addEventListener("load", function() {
         let loader = document.getElementById('preloader');
         console.log('load event triggered');
@@ -22,12 +18,3 @@
       }
       
       setInterval(changeBannerImage, 2500);
-
-    // setInterval(changeBannerImage, 3000);
-    // const image = document.getElementById('image');
-    // let images = ['./dist/img/banner1.png', './dist/img/scnd-main-img.png'];
-
-    // setInterval(function(){
-    //     let random = Math.floor(Math.random() * 2);
-    //     image.src = images[random];
-    // }, 800);
