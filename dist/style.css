@@ -887,20 +887,11 @@ input{
         text-align: left;
     }
 
-    .contact-form-sec{
-        border: 1px solid red;
-    }
-
     .cf-flex{
         flex-direction: column;
     }
 
-    .c-flex-form{
-        /* position: absolute; */
-    }
-
     #c-form-btn{
-        /* left: 10rem; */
         left: 50%;
         top: 35rem;
     }   
@@ -918,8 +909,6 @@ input{
     .card-flex{
         flex-direction: column;
     }
-
-    
 
     .card-det{
         margin-bottom: 3.5rem;
