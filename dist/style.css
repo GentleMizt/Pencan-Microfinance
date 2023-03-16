@@ -887,9 +887,23 @@ input{
         text-align: left;
     }
 
+    .contact-form-sec{
+        border: 1px solid red;
+    }
+
     .cf-flex{
         flex-direction: column;
     }
+
+    .c-flex-form{
+        /* position: absolute; */
+    }
+
+    #c-form-btn{
+        /* left: 10rem; */
+        left: 50%;
+        top: 35rem;
+    }   
 
     .contact-form-sec{
         padding-left: 1.5rem;
@@ -898,8 +912,18 @@ input{
 
     .input-msg input{
         margin-top: 1.5rem;
+        margin-bottom: 10rem;
     }
 
+    .card-flex{
+        flex-direction: column;
+    }
+
+    
+
+    .card-det{
+        margin-bottom: 3.5rem;
+    }
 
 
 
