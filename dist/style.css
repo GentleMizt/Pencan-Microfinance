@@ -311,8 +311,12 @@ main{
     margin-top: 1rem;
 }
 
-.d-flex{
+.d-desktop{
     display: flex;
+}
+
+.d-mobile{
+    display: none;
 }
 
 .main3 {
@@ -1188,6 +1192,15 @@ and (max-device-width : 767px) { /* STYLES GO HERE */
 
     .get-img img{
         width: 200%;
+    }
+
+    
+    .d-mobile{
+        display: block;
+    }
+    
+    .d-desktop{
+        display: none;
     }
 }
 
