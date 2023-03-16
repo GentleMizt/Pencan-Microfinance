@@ -24,7 +24,8 @@ body {
     position: fixed;
     width: 100vw;
     min-height: 100vh;
-    background: url(./img/splash.png);
+    /* background: url(./img/splash.png); */
+    background-color: #1C9FF3;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
