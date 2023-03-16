@@ -1,5 +1,10 @@
     console.log('Hello');
 
+    // window.addEventListener("load", function() {
+    //     var preloader = document.getElementById('preloader');
+    //     preloader.style.display = 'none';
+    // });
+
     let bannerImages = [
         './dist/img/banner1.png',
         './dist/img/scnd-main-img.png'
