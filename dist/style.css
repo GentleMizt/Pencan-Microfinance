@@ -332,21 +332,27 @@ main{
     padding-top: 10.0rem;
 }
 
+#myCarousel{
+    border: 1px solid blue;
+}
+
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
 .test-flex{
-    border: 1px solid red;
     justify-content: space-between;
     display: flex;
     gap: 2rem;
 }
 
 .test-left{
-    border: 1px solid blue;
     flex-basis: 40%;
     width: 100%;
 }
 
 .test-ryt{
-    border: 1px solid black;
     flex-basis: 55%;
     padding-left: 5rem;
 }
@@ -378,7 +384,7 @@ main{
 
 #main3r2{
     display: flex;
-    gap: 1.6rem;
+    gap: 2.6rem;
 }
 
 #main3r2 i{
@@ -393,7 +399,6 @@ main{
 }
 
 .carousel-control-prev, .carousel-control-next{
-    border: 1px solid red;
     position: static !important;
 }
 
