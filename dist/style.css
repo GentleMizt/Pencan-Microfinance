@@ -1224,19 +1224,10 @@ and (max-device-width : 767px) { /* STYLES GO HERE */
         margin-bottom: 8rem;
     }
 
-    .get-div{
-        /* border: 1px solid red; */
-    }
-
     .get1, .get2, .get3{
         flex-direction: column;
         align-items: center;
         text-align: center;
-    }
-
-    .r-img{
-        /* margin-bottom: 1rem; */
-        /* margin-right: -.1rem; */
     }
 
     .get-img img{
