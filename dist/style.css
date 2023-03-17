@@ -24,8 +24,8 @@ body {
   position: fixed;
   width: 100vw;
   min-height: 100vh;
-  /* background: url(./img/splash.png); */
-  background-color: #1c9ff3;
+  background: url(./Cimg/splash.png);
+  /* background-color: #1c9ff3; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@ body {
 
 #spinner img {
   opacity: 0;
-  width: 100%;
+  width: 85%;
   animation: fadeInOut 3s infinite;
 }
 
@@ -374,7 +374,6 @@ main {
 
 .test-ryt {
   flex-basis: 55%;
-  /* padding-left: 5rem; */
 }
 
 #main3h {

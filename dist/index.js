@@ -1,19 +1,25 @@
 'use strict';
-  AOS.init();
-  window.addEventListener('load', function () {
-    let loader = document.getElementById('preloader');
-    console.log('load event triggered');
-    loader.style.display = 'none';
-  });
+AOS.init();
 
-  let bannerImages = ['./dist/Cimg/banner1.png', './dist/Cimg/scnd-main-img.png'];
+let preloader = document.getElementById('preloader');
+let loader = true;
 
-  let currentImageIndex = 0;
-  let bannerImage = document.querySelector('.banner img');
+console.log(loader);
+if (loader === true) {
+  setTimeout(() => {
+    preloader.style.display = 'none';
+    loader = false;
+  }, 5000);
+}
 
-  function changeBannerImage() {
-    currentImageIndex = (currentImageIndex + 1) % bannerImages.length;
-    bannerImage.src = bannerImages[currentImageIndex];
-  }
+let bannerImages = ['./dist/Cimg/banner1.png', './dist/Cimg/scnd-main-img.png'];
 
-  setInterval(changeBannerImage, 2500);
+let currentImageIndex = 0;
+let bannerImage = document.querySelector('.banner img');
+
+function changeBannerImage() {
+  currentImageIndex = (currentImageIndex + 1) % bannerImages.length;
+  bannerImage.src = bannerImages[currentImageIndex];
+}
+
+setInterval(changeBannerImage, 2500);
