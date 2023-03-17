@@ -5,8 +5,8 @@
     });
 
     let bannerImages = [
-        './dist/img/banner1.png',
-        './dist/img/scnd-main-img.png'
+        './dist/Cimg/banner1.png',
+        './dist/Cimg/scnd-main-img.png'
       ];
       
       let currentImageIndex = 0;
