@@ -270,6 +270,8 @@ main {
 #plussss {
   display: flex;
   justify-content: right;
+  margin-top: 10.5rem;
+  padding-bottom: 2rem;
 }
 
 #main1-row1 img {
@@ -333,6 +335,7 @@ main {
 
 .carousel {
   width: 100%;
+  margin: 0 auto;
 }
 
 .carousel-inner {
@@ -371,7 +374,7 @@ main {
 
 .test-ryt {
   flex-basis: 55%;
-  padding-left: 5rem;
+  /* padding-left: 5rem; */
 }
 
 #main3h {
