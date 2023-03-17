@@ -330,13 +330,32 @@ main{
 
 .main3 {
     padding-top: 10.0rem;
-    /* border: .1rem solid red; */
+}
+
+.test-flex{
+    border: 1px solid red;
+    justify-content: space-between;
+    display: flex;
+    gap: 2rem;
+}
+
+.test-left{
+    border: 1px solid blue;
+    flex-basis: 40%;
+    width: 100%;
+}
+
+.test-ryt{
+    border: 1px solid black;
+    flex-basis: 55%;
+    padding-left: 5rem;
 }
 
 #main3h {
     font-weight: 500;
     font-size: 2.4rem;
     margin-bottom: 1.2rem;
+    width: 100%;
 }
 
 .main31 p {
@@ -371,6 +390,11 @@ main{
 
 #main3r2 i:hover{
     background-color: #F17829;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    border: 1px solid red;
+    position: static !important;
 }
 
 #main4{
