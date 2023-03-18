@@ -969,6 +969,10 @@ input {
     flex-direction: column;
   }
 
+  #main3r1 {
+    gap: .5rem;
+  }
+
   #main4 {
     gap: 0;
   }
