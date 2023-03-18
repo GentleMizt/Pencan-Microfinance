@@ -408,14 +408,14 @@ main {
   gap: 2.6rem;
 }
 
-#main3r2 i {
+#main3r2 a i {
   color: #fff;
   padding: 1rem;
   border-radius: 100%;
   background: #e5e6e7;
 }
 
-#main3r2 i:hover {
+#main3r2 a i:hover {
   background-color: #f17829;
 }
 
@@ -963,6 +963,10 @@ input {
 
   .main3 {
     padding-top: 60px;
+  }
+
+  .test-flex{
+    flex-direction: column;
   }
 
   #main4 {
