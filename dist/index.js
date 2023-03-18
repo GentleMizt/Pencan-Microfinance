@@ -1,5 +1,6 @@
 'use strict';
 AOS.init();
+console.log('hello About Us');
 
 let preloader = document.getElementById('preloader');
 let loader = true;
