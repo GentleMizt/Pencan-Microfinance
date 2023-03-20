@@ -938,7 +938,7 @@ input {
   transition: background-color 0.3s ease, border-radius 0.3s ease;
 }
 
-.apply-flex, .borrow-flex, .repay-flex, .max-flex, .check-flex, .savings-acc-flex{
+.apply-flex, .borrow-flex, .repay-flex, .max-flex, .check-flex, .savings-acc-flex, .interest-flex, .attract-flex, .doc-flex{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -949,7 +949,7 @@ input {
   border-radius: 1rem;
 }
 
-.apply, .borrow, .repay, .max, .check, .savings-acc{
+.apply, .borrow, .repay, .max, .check, .savings-acc, .interest, .attract, .doc{
   /* border: 1px solid red; */
   margin-top: 8rem;
   padding: 1.2rem 5.7rem 4rem 3.7rem;
@@ -971,7 +971,7 @@ input {
   margin-top: 2.5rem;
 }
 
-.hidden, .hidden-b, .hidden-r, .hidden-m, .hidden-c, .hidden-s{
+.hidden, .hidden-b, .hidden-r, .hidden-m, .hidden-c, .hidden-s, .hidden-i, .hidden-a, .hidden-d{
   display: none;
   margin-top: 4.367rem;
 }

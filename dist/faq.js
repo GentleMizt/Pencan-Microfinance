@@ -111,13 +111,13 @@ let opener7 = document.querySelector('.opener7');
 const toggleOpener7 = () => {
   if (opener7.src.match('./dist/Cimg/open-plus.png')) {
     opener7.src = './dist/Cimg/close-times.png';
-    document.querySelector('.hidden-c').style.display = 'block';
-    document.querySelector('.apply').style.border = '1px solid #F17829';
-    document.querySelector('.apply').style.borderRadius = '1rem';
+    document.querySelector('.hidden-i').style.display = 'block';
+    document.querySelector('.interest').style.border = '1px solid #F17829';
+    document.querySelector('.interest').style.borderRadius = '1rem';
   } else {
     opener7.src = './dist/Cimg/open-plus.png';
-    document.querySelector('.hidden-c').style.display = 'none';
-    document.querySelector('.apply').style.border = 'none';
+    document.querySelector('.hidden-i').style.display = 'none';
+    document.querySelector('.interest').style.border = 'none';
   }
 };
 
@@ -125,13 +125,13 @@ let opener8 = document.querySelector('.opener8');
 const toggleOpener8 = () => {
   if (opener8.src.match('./dist/Cimg/open-plus.png')) {
     opener8.src = './dist/Cimg/close-times.png';
-    document.querySelector('.hidden-c').style.display = 'block';
-    document.querySelector('.apply').style.border = '1px solid #F17829';
-    document.querySelector('.apply').style.borderRadius = '1rem';
+    document.querySelector('.hidden-a').style.display = 'block';
+    document.querySelector('.attract').style.border = '1px solid #F17829';
+    document.querySelector('.attract').style.borderRadius = '1rem';
   } else {
     opener8.src = './dist/Cimg/open-plus.png';
-    document.querySelector('.hidden-c').style.display = 'none';
-    document.querySelector('.apply').style.border = 'none';
+    document.querySelector('.hidden-a').style.display = 'none';
+    document.querySelector('.attract').style.border = 'none';
   }
 };
 
@@ -139,13 +139,13 @@ let opener9 = document.querySelector('.opener9');
 const toggleOpener9 = () => {
   if (opener9.src.match('./dist/Cimg/open-plus.png')) {
     opener9.src = './dist/Cimg/close-times.png';
-    document.querySelector('.hidden-c').style.display = 'block';
-    document.querySelector('.apply').style.border = '1px solid #F17829';
-    document.querySelector('.apply').style.borderRadius = '1rem';
+    document.querySelector('.hidden-d').style.display = 'block';
+    document.querySelector('.doc').style.border = '1px solid #F17829';
+    document.querySelector('.doc').style.borderRadius = '1rem';
   } else {
     opener9.src = './dist/Cimg/open-plus.png';
-    document.querySelector('.hidden-c').style.display = 'none';
-    document.querySelector('.apply').style.border = 'none';
+    document.querySelector('.hidden-d').style.display = 'none';
+    document.querySelector('.doc').style.border = 'none';
   }
 };
 
