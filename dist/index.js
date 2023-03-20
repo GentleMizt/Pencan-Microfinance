@@ -25,5 +25,17 @@ function changeBannerImage() {
 
 setInterval(changeBannerImage, 2500);
 
-savingClick = document.querySelector('.savings');
-loanClick = document.querySelector('.loans');
+const savingClick = document.querySelector('.saving');
+const loanClick = document.querySelector('.loan').textContent;
+
+console.log(loanClick);
+
+// loanClick.addEventListener('click', () =>{
+//   loanClick.style.backgroundColour = 'rgba(217, 217, 217, 0.9)';
+//   loanClick.style.borderRadius = '1rem';
+//   savingClick.style.backgroundColour = '#1C9FF3'
+// })
+
+// savingClick.addEventListener('click', () =>{
+  
+// })
