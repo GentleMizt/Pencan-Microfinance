@@ -938,7 +938,7 @@ input {
   transition: background-color 0.3s ease, border-radius 0.3s ease;
 }
 
-.apply-flex {
+.apply-flex, .borrow-flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -949,7 +949,7 @@ input {
   border-radius: 1rem;
 }
 
-.apply {
+.apply, .borrow {
   /* border: 1px solid red; */
   margin-top: 8rem;
   padding: 1.2rem 5.7rem 4rem 3.7rem;
@@ -971,7 +971,7 @@ input {
   margin-top: 2.5rem;
 }
 
-.hidden{
+.hidden, .hidden-b{
   display: none;
   margin-top: 4.367rem;
 }
