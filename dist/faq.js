@@ -20,6 +20,8 @@ savingClick.addEventListener('click', () => {
   savingClick.style.backgroundColor = 'rgba(217, 217, 217, 0.9)';
   savingClick.style.borderRadius = '1rem';
   loanClick.style.backgroundColor = '#1C9FF3';
+  loanSection.style.display = 'block';
+  savingSection.style.display = 'none';
 });
 
 let opener1 = document.querySelector('.opener1');
