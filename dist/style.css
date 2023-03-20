@@ -976,6 +976,10 @@ input {
   margin-top: 4.367rem;
 }
 
+.savings-div{
+  display: none;
+}
+
 /*  ---------------------------------------------------- FAQ STYLING ENDS HERE ------------------------------------------------------- */
 
 @media (max-width: 736px) {

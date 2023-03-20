@@ -56,12 +56,12 @@ const toggleOpener3 = () => {
   if (opener3.src.match('./dist/Cimg/open-plus.png')) {
     opener3.src = './dist/Cimg/close-times.png';
     document.querySelector('.hidden-r').style.display = 'block';
-    document.querySelector('.apply').style.border = '1px solid #F17829';
-    document.querySelector('.apply').style.borderRadius = '1rem';
+    document.querySelector('.repay').style.border = '1px solid #F17829';
+    document.querySelector('.repay').style.borderRadius = '1rem';
   } else {
     opener3.src = './dist/Cimg/open-plus.png';
     document.querySelector('.hidden-r').style.display = 'none';
-    document.querySelector('.apply').style.border = 'none';
+    document.querySelector('.repay').style.border = 'none';
   }
 };
 
@@ -70,12 +70,12 @@ const toggleOpener4 = () => {
   if (opener4.src.match('./dist/Cimg/open-plus.png')) {
     opener4.src = './dist/Cimg/close-times.png';
     document.querySelector('.hidden-m').style.display = 'block';
-    document.querySelector('.apply').style.border = '1px solid #F17829';
-    document.querySelector('.apply').style.borderRadius = '1rem';
+    document.querySelector('.max').style.border = '1px solid #F17829';
+    document.querySelector('.max').style.borderRadius = '1rem';
   } else {
     opener4.src = './dist/Cimg/open-plus.png';
     document.querySelector('.hidden-m').style.display = 'none';
-    document.querySelector('.apply').style.border = 'none';
+    document.querySelector('.max').style.border = 'none';
   }
 };
 
@@ -84,12 +84,12 @@ const toggleOpener5 = () => {
   if (opener5.src.match('./dist/Cimg/open-plus.png')) {
     opener5.src = './dist/Cimg/close-times.png';
     document.querySelector('.hidden-c').style.display = 'block';
-    document.querySelector('.apply').style.border = '1px solid #F17829';
-    document.querySelector('.apply').style.borderRadius = '1rem';
+    document.querySelector('.check').style.border = '1px solid #F17829';
+    document.querySelector('.check').style.borderRadius = '1rem';
   } else {
     opener5.src = './dist/Cimg/open-plus.png';
     document.querySelector('.hidden-c').style.display = 'none';
-    document.querySelector('.apply').style.border = 'none';
+    document.querySelector('.check').style.border = 'none';
   }
 };
 
@@ -97,12 +97,12 @@ let opener6 = document.querySelector('.opener6');
 const toggleOpener6 = () => {
   if (opener6.src.match('./dist/Cimg/open-plus.png')) {
     opener6.src = './dist/Cimg/close-times.png';
-    document.querySelector('.hidden-c').style.display = 'block';
+    document.querySelector('.hidden').style.display = 'block';
     document.querySelector('.apply').style.border = '1px solid #F17829';
     document.querySelector('.apply').style.borderRadius = '1rem';
   } else {
     opener6.src = './dist/Cimg/open-plus.png';
-    document.querySelector('.hidden-c').style.display = 'none';
+    document.querySelector('.hidden').style.display = 'none';
     document.querySelector('.apply').style.border = 'none';
   }
 };
@@ -168,5 +168,10 @@ opener2.addEventListener('click', toggleOpener2);
 opener3.addEventListener('click', toggleOpener3);
 opener4.addEventListener('click', toggleOpener4);
 opener5.addEventListener('click', toggleOpener5);
+opener6.addEventListener('click', toggleOpener6);
+opener7.addEventListener('click', toggleOpener7);
+opener8.addEventListener('click', toggleOpener8);
+opener9.addEventListener('click', toggleOpener9);
+opener10.addEventListener('click', toggleOpener10);
 
 
