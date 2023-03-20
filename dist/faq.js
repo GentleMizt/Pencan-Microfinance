@@ -32,19 +32,26 @@ savingClick.addEventListener('click', () => {
 //     document.querySelector('.apply').style.border = 'none';
 //   }
 // };
-
+let hidden = document.querySelectorAll('.hidden');
+// for (let hI = 0; hI < hidden.length; hI++) {
+//   //   console.log((hidden[hI].style.display = 'block'));
+// }
 let openers = document.querySelectorAll('.opener');
 for (let i = 0; i < openers.length; i++) {
   openers[i].addEventListener('click', () => {
     if (openers[i].src.match('./dist/Cimg/open-plus.png')) {
       openers[i].src = './dist/Cimg/close-times.png';
-      document.querySelector('.hidden').style.display = 'block';
-      document.querySelector('.apply').style.border = '1px solid #F17829';
-      document.querySelector('.apply').style.borderRadius = '1rem';
+      for (let hI = 0; hI < hidden.length; hI++) {
+        console.log((hidden[hI].style.display = 'block'));
+      }
+      //   document.querySelectorAll('.apply').style.border = '1px solid #F17829';
+      //   document.querySelectorAll('.apply').style.borderRadius = '1rem';
     } else {
       openers[i].src = './dist/Cimg/open-plus.png';
-      document.querySelector('.hidden').style.display = 'none';
-      document.querySelector('.apply').style.border = 'none';
+      for (let hI = 0; hI < hidden.length; hI++) {
+        console.log((hidden[hI].style.display = 'none'));
+      }
+      //   document.querySelectorAll('.apply').style.border = 'none';
     }
   });
 }
