@@ -24,3 +24,6 @@ function changeBannerImage() {
 }
 
 setInterval(changeBannerImage, 2500);
+
+savingClick = document.querySelector('.savings');
+loanClick = document.querySelector('.loans');
