@@ -23,11 +23,14 @@ const toggleOpener = () => {
   if (opener.src.match('./dist/Cimg/open-plus.png')) {
     opener.src = './dist/Cimg/close-times.png';
     document.querySelector('.hidden').style.display = 'block';
+    document.querySelector('.apply').style.border = '1px solid #F17829';
+    document.querySelector('.apply').style.borderRadius = '1rem';
+
   } else {
     opener.src = './dist/Cimg/open-plus.png';
     document.querySelector('.hidden').style.display = 'none';
+    document.querySelector('.apply').style.border = 'none';
   }
-
 };
 
 opener.addEventListener('click', toggleOpener);
