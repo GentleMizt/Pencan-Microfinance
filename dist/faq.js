@@ -54,13 +54,13 @@ let opener3 = document.querySelector('.opener3');
 const toggleOpener3 = () => {
   if (opener3.src.match('./dist/Cimg/open-plus.png')) {
     opener3.src = './dist/Cimg/close-times.png';
-    document.querySelector('.hidden').style.display = 'block';
+    document.querySelector('.hidden-r').style.display = 'block';
     document.querySelector('.apply').style.border = '1px solid #F17829';
     document.querySelector('.apply').style.borderRadius = '1rem';
 
   } else {
     opener3.src = './dist/Cimg/open-plus.png';
-    document.querySelector('.hidden').style.display = 'none';
+    document.querySelector('.hidden-r').style.display = 'none';
     document.querySelector('.apply').style.border = 'none';
   }
 };
