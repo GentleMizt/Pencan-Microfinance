@@ -70,13 +70,13 @@ let opener4 = document.querySelector('.opener4');
 const toggleOpener4 = () => {
   if (opener4.src.match('./dist/Cimg/open-plus.png')) {
     opener4.src = './dist/Cimg/close-times.png';
-    document.querySelector('.hidden').style.display = 'block';
+    document.querySelector('.hidden-m').style.display = 'block';
     document.querySelector('.apply').style.border = '1px solid #F17829';
     document.querySelector('.apply').style.borderRadius = '1rem';
 
   } else {
     opener4.src = './dist/Cimg/open-plus.png';
-    document.querySelector('.hidden').style.display = 'none';
+    document.querySelector('.hidden-m').style.display = 'none';
     document.querySelector('.apply').style.border = 'none';
   }
 };
@@ -86,13 +86,13 @@ let opener5 = document.querySelector('.opener5');
 const toggleOpener5 = () => {
   if (opener5.src.match('./dist/Cimg/open-plus.png')) {
     opener5.src = './dist/Cimg/close-times.png';
-    document.querySelector('.hidden').style.display = 'block';
+    document.querySelector('.hidden-c').style.display = 'block';
     document.querySelector('.apply').style.border = '1px solid #F17829';
     document.querySelector('.apply').style.borderRadius = '1rem';
 
   } else {
     opener5.src = './dist/Cimg/open-plus.png';
-    document.querySelector('.hidden').style.display = 'none';
+    document.querySelector('.hidden-c').style.display = 'none';
     document.querySelector('.apply').style.border = 'none';
   }
 };
