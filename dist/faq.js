@@ -97,13 +97,13 @@ let opener6 = document.querySelector('.opener6');
 const toggleOpener6 = () => {
   if (opener6.src.match('./dist/Cimg/open-plus.png')) {
     opener6.src = './dist/Cimg/close-times.png';
-    document.querySelector('.hidden').style.display = 'block';
-    document.querySelector('.apply').style.border = '1px solid #F17829';
-    document.querySelector('.apply').style.borderRadius = '1rem';
+    document.querySelector('.hidden-s').style.display = 'block';
+    document.querySelector('.savings-acc').style.border = '1px solid #F17829';
+    document.querySelector('.savings-acc').style.borderRadius = '1rem';
   } else {
     opener6.src = './dist/Cimg/open-plus.png';
-    document.querySelector('.hidden').style.display = 'none';
-    document.querySelector('.apply').style.border = 'none';
+    document.querySelector('.hidden-s').style.display = 'none';
+    document.querySelector('.savings-acc').style.border = 'none';
   }
 };
 
@@ -173,5 +173,3 @@ opener7.addEventListener('click', toggleOpener7);
 opener8.addEventListener('click', toggleOpener8);
 opener9.addEventListener('click', toggleOpener9);
 opener10.addEventListener('click', toggleOpener10);
-
-
