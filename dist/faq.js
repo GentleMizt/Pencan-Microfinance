@@ -2,10 +2,9 @@
 
 const savingClick = document.querySelector('.saving');
 const loanClick = document.querySelector('.loan');
+let opener = document.querySelector('.opener');
+
 // const plusOpen = document.querySelector('.plus-open');
-const opener = document.querySelector('.opener');
-let plusOpenSrc = './dist/Cimg/open-plus.png';
-let closeTimesSrc = './dist/Cimg/close-times.png';
 
 loanClick.addEventListener('click', e => {
   loanClick.style.backgroundColor = 'rgba(217, 217, 217, 0.9)';
@@ -19,14 +18,15 @@ savingClick.addEventListener('click', () => {
   loanClick.style.backgroundColor = '#1C9FF3';
 });
 
-opener.addEventListener('click', (e) => {
-    // console.log(opener.src);
 
-  if (opener.src === plusOpenSrc) {
-    opener.src = './dist/Cimg/close-times.png';
-  } else {
-    opener.src = './dist/Cimg/open-plus.png';
-  }
-});
+const toggleOpener = () => {
+    let opener = document.querySelector('.opener');
+    if (opener.src.match('./dist/Cimg/open-plus.png')) {
+        opener.src = './dist/Cimg/close-times.png';
+    } else {
+        opener.src = './dist/Cimg/open-plus.png';
+    }
+};
 
-const toggleOpener = () => {};
+
+opener.addEventListener('click', toggleOpener);
