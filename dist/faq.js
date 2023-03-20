@@ -18,15 +18,16 @@ savingClick.addEventListener('click', () => {
   loanClick.style.backgroundColor = '#1C9FF3';
 });
 
-
 const toggleOpener = () => {
-    let opener = document.querySelector('.opener');
-    if (opener.src.match('./dist/Cimg/open-plus.png')) {
-        opener.src = './dist/Cimg/close-times.png';
-    } else {
-        opener.src = './dist/Cimg/open-plus.png';
-    }
-};
+  let opener = document.querySelector('.opener');
+  if (opener.src.match('./dist/Cimg/open-plus.png')) {
+    opener.src = './dist/Cimg/close-times.png';
+    document.querySelector('.hidden').style.display = 'block';
+  } else {
+    opener.src = './dist/Cimg/open-plus.png';
+    document.querySelector('.hidden').style.display = 'none';
+  }
 
+};
 
 opener.addEventListener('click', toggleOpener);
