@@ -153,13 +153,13 @@ let opener10 = document.querySelector('.opener10');
 const toggleOpener10 = () => {
   if (opener10.src.match('./dist/Cimg/open-plus.png')) {
     opener10.src = './dist/Cimg/close-times.png';
-    document.querySelector('.hidden-c').style.display = 'block';
-    document.querySelector('.apply').style.border = '1px solid #F17829';
-    document.querySelector('.apply').style.borderRadius = '1rem';
+    document.querySelector('.hidden-cu').style.display = 'block';
+    document.querySelector('.customer').style.border = '1px solid #F17829';
+    document.querySelector('.customer').style.borderRadius = '1rem';
   } else {
     opener10.src = './dist/Cimg/open-plus.png';
-    document.querySelector('.hidden-c').style.display = 'none';
-    document.querySelector('.apply').style.border = 'none';
+    document.querySelector('.hidden-cu').style.display = 'none';
+    document.querySelector('.customer').style.border = 'none';
   }
 };
 
