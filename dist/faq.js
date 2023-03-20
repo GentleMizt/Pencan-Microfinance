@@ -1,5 +1,5 @@
 'use strict';
-const loanSection = document.querySelector('.loan-div')
+const loanSection = document.querySelector('.loans-div')
 const savingSection = document.querySelector('.savings-div')
 const savingClick = document.querySelector('.saving');
 const loanClick = document.querySelector('.loan');
@@ -11,6 +11,8 @@ loanClick.addEventListener('click', e => {
   loanClick.style.backgroundColor = 'rgba(217, 217, 217, 0.9)';
   loanClick.style.borderRadius = '1rem';
   savingClick.style.backgroundColor = '#1C9FF3';
+  loanSection.style.display = 'none';
+  savingSection.style.display = 'block';
 
 });
 
