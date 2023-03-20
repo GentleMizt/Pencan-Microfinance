@@ -899,6 +899,82 @@ input {
 
 /*  ---------------------------------------------------- CONTACT US STYLING ENDS HERE ------------------------------------------------------- */
 
+/*  ---------------------------------------------------- FAQ STYLING BEGINS HERE ------------------------------------------------------- */
+.contact-head-faq{
+  margin-top: 11.6rem;
+  text-align: center;
+}
+
+.contact-head-faq h2{
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 6rem;
+  color: #1c9ff3;
+}
+
+.contact-head-faq p {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ---------------------------------------------------- FAQ STYLING ENDS HERE ------------------------------------------------------- */
+
 @media (max-width: 736px) {
   #preloader {
     height: 100vh;
