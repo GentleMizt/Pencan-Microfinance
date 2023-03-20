@@ -965,12 +965,12 @@ input {
     padding-top: 60px;
   }
 
-  .test-flex{
+  .test-flex {
     flex-direction: column;
   }
 
   #main3r1 {
-    gap: .5rem;
+    gap: 0.5rem;
   }
 
   #main4 {
