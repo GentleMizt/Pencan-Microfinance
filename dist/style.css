@@ -950,7 +950,6 @@ input {
 }
 
 .apply, .borrow, .repay, .max, .check, .savings-acc, .interest, .attract, .doc, .customer{
-  /* border: 1px solid red; */
   margin-top: 8rem;
   padding: 1.2rem 5.7rem 4rem 3.7rem;
 }
