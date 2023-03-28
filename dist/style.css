@@ -938,18 +938,36 @@ input {
   transition: background-color 0.3s ease, border-radius 0.3s ease;
 }
 
-.apply-flex, .borrow-flex, .repay-flex, .max-flex, .check-flex, .savings-acc-flex, .interest-flex, .attract-flex, .doc-flex, .customer-flex{
+.apply-flex,
+.borrow-flex,
+.repay-flex,
+.max-flex,
+.check-flex,
+.savings-acc-flex,
+.interest-flex,
+.attract-flex,
+.doc-flex,
+.customer-flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.saving{
+.saving {
   background: rgba(217, 217, 217, 0.9);
   border-radius: 1rem;
 }
 
-.apply, .borrow, .repay, .max, .check, .savings-acc, .interest, .attract, .doc, .customer{
+.apply,
+.borrow,
+.repay,
+.max,
+.check,
+.savings-acc,
+.interest,
+.attract,
+.doc,
+.customer {
   margin-top: 8rem;
   padding: 1.2rem 5.7rem 4rem 3.7rem;
 }
@@ -971,12 +989,21 @@ input {
   margin-top: 2.5rem;
 }
 
-.hidden, .hidden-b, .hidden-r, .hidden-m, .hidden-c, .hidden-s, .hidden-i, .hidden-a, .hidden-d, .hidden-cu{
+.hidden,
+.hidden-b,
+.hidden-r,
+.hidden-m,
+.hidden-c,
+.hidden-s,
+.hidden-i,
+.hidden-a,
+.hidden-d,
+.hidden-cu {
   display: none;
   margin-top: 4.367rem;
 }
 
-.savings-div{
+.savings-div {
   display: none;
 }
 
@@ -1255,33 +1282,19 @@ input {
   /* --------------------------------------------------------------CONTACT US MEDIA QUERY ENDS HERE --------------------------------------------------------- */
 }
 
-  /* --------------------------------------------------------------FAQ MEDIA QUERY STARTS HERE --------------------------------------------------------- */
+/* --------------------------------------------------------------FAQ MEDIA QUERY STARTS HERE --------------------------------------------------------- */
+.contact-head-faq h2 {
+  font-size: 3rem;
+  line-height: 4rem;
+  color: #1c9ff3;
+}
 
+.contact-head-faq p {
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  /* --------------------------------------------------------------FAQ MEDIA QUERY ENDS HERE --------------------------------------------------------- */
+/* --------------------------------------------------------------FAQ MEDIA QUERY ENDS HERE --------------------------------------------------------- */
 
 /* 
 @media (max-width: 576px){
