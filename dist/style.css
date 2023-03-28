@@ -1293,10 +1293,16 @@ input {
 }
 
 .faq-switch span {
+  padding: .5rem 1rem;
+
   /* text-align: center;
   flex-basis: 50%;
   cursor: pointer;
   transition: background-color 0.3s ease, border-radius 0.3s ease; */
+}
+
+.saving{
+  /* padding:.5rem 0; */
 }
 
 /* --------------------------------------------------------------FAQ MEDIA QUERY ENDS HERE --------------------------------------------------------- */
