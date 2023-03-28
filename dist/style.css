@@ -1284,6 +1284,19 @@ input {
   line-height: 3rem;
 }
 
+.faq-switch {
+  font-size: 2.4rem;
+  line-height: 4rem;
+  margin-top: 4.5rem;
+}
+
+.faq-switch span {
+  /* text-align: center;
+  flex-basis: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-radius 0.3s ease; */
+}
+
 /* --------------------------------------------------------------FAQ MEDIA QUERY ENDS HERE --------------------------------------------------------- */
 
 /* 
