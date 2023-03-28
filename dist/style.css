@@ -989,16 +989,7 @@ input {
   margin-top: 2.5rem;
 }
 
-.hidden,
-.hidden-b,
-.hidden-r,
-.hidden-m,
-.hidden-c,
-.hidden-s,
-.hidden-i,
-.hidden-a,
-.hidden-d,
-.hidden-cu {
+.app-text{
   display: none;
   margin-top: 4.367rem;
 }
