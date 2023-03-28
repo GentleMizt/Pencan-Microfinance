@@ -1285,9 +1285,11 @@ input {
 }
 
 .faq-switch {
-  font-size: 2.4rem;
-  line-height: 4rem;
-  margin-top: 4.5rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  width: 40%;
+  /* margin-top: rem; */
+  border: 1px solid red
 }
 
 .faq-switch span {
