@@ -104,7 +104,7 @@ body {
   outline: none;
   color: #ffffff;
   padding: 1.3rem 3.4rem;
-  margin-left: 5.5rem;
+  margin-left: 4rem;
   position: relative;
   top: -1.5rem;
   transition: 0.5s;
@@ -622,6 +622,74 @@ footer p {
     opacity: 0;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*     ------------------------------------------------------------------------ ABOUT US STYLING BEGINS HERE ---------------------------------------------------------------------- */
 #main-abth {
@@ -1284,22 +1352,16 @@ input {
   line-height: 3rem;
 }
 
-.faq-switch {
+/* .faq-switch {
   font-size: 2rem;
   line-height: 2rem;
   width: 40%;
-  /* margin-top: rem; */
   border: 1px solid red
 }
 
 .faq-switch span {
   padding: .5rem 1rem;
-
-  /* text-align: center;
-  flex-basis: 50%;
-  cursor: pointer;
-  transition: background-color 0.3s ease, border-radius 0.3s ease; */
-}
+} */
 
 .saving{
   /* padding:.5rem 0; */
