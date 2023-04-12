@@ -10,7 +10,7 @@ if (loader === true) {
   setTimeout(() => {
     preloader.style.display = 'none';
     loader = false;
-  }, 7500);
+  }, 8500);
 }
 
 // let bannerImages = ['./dist/Cimg/banner1.png', './dist/Cimg/scnd-main-img.png'];
