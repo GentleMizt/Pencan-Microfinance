@@ -12,6 +12,7 @@ body {
   font-size: 1.4rem;
   font-family: 'Poppins', sans-serif;
   max-width: 100%;
+  width: 100vw;
 }
 
 .container {
@@ -348,6 +349,7 @@ main {
 
 .main3 {
   padding-top: 10rem;
+  overflow: hidden;
 }
 
 .carousel {
