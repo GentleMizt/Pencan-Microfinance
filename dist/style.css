@@ -425,9 +425,14 @@ main {
   position: static !important;
 }
 
+.sec4 {
+  background: #F5F5F5;
+  margin-top: 5rem;
+  padding: 3rem 5rem;
+}
+
 #main4 {
   /* border: 1px solid red; */
-  margin-top: 17.3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
