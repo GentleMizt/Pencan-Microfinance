@@ -512,7 +512,8 @@ main {
 }
 
 #main6 {
-  margin-right: 172px;
+  /* margin-right: 172px; */
+  flex-basis: 40%;
 }
 
 #main6h {
@@ -520,6 +521,11 @@ main {
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 12px;
+}
+
+.main6-flex{
+  display: flex;
+  justify-content: space-between;
 }
 
 .main6-img-div {
@@ -530,7 +536,8 @@ main {
 }
 
 .main6-img-div img{
-  margin-right: 8rem;
+  margin-right: 4rem;
+  border: 1px solid blue;
   /* width: 100%; */
 }
 
