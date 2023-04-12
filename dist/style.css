@@ -252,7 +252,7 @@ main {
 }
 
 .second {
-  background: #E5E6E7;
+  background: #e5e6e7;
   color: #f17829;
 }
 
@@ -523,22 +523,13 @@ main {
   margin-bottom: 12px;
 }
 
-.main6-flex{
+.main6-flex {
   display: flex;
   justify-content: space-between;
 }
 
-.main6-img-div {
-  /* display: flex;
-  justify-content: space-between; */
-  /* margin-left: -100px; */
-  border: 1px solid red;
-}
-
-.main6-img-div img{
+.main6-img-div img {
   margin-right: 4rem;
-  border: 1px solid blue;
-  /* width: 100%; */
 }
 
 .main7-section {
@@ -638,12 +629,6 @@ footer p {
     opacity: 0;
   }
 }
-
-
-
-
-
-
 
 /*     ------------------------------------------------------------------------ ABOUT US STYLING BEGINS HERE ---------------------------------------------------------------------- */
 #main-abth {
@@ -1011,7 +996,7 @@ input {
   margin-top: 2.5rem;
 }
 
-.app-text{
+.app-text {
   display: none;
   margin-top: 4.367rem;
 }
@@ -1137,13 +1122,13 @@ input {
     margin-top: 71px;
   }
 
+  .main6-flex {
+    flex-direction: column;
+  }
+
   #main6 p {
     margin-top: 3rem;
     margin-bottom: 2.5rem;
-  }
-
-  .main6-img-div {
-    margin-left: 0;
   }
 
   #main7h {
@@ -1317,7 +1302,7 @@ input {
   padding: .5rem 1rem;
 } */
 
-.saving{
+.saving {
   /* padding:.5rem 0; */
 }
 
