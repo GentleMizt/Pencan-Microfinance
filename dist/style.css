@@ -523,7 +523,15 @@ main {
 }
 
 .main6-img-div {
-  margin-left: -100px;
+  /* display: flex;
+  justify-content: space-between; */
+  /* margin-left: -100px; */
+  border: 1px solid red;
+}
+
+.main6-img-div img{
+  margin-right: 8rem;
+  /* width: 100%; */
 }
 
 .main7-section {
