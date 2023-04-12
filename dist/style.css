@@ -1101,13 +1101,15 @@ input {
   }
 
   #main4 {
-    gap: 0;
+    flex-direction: column;
   }
 
   .main4l {
     flex-basis: 70%;
     gap: 0.5rem;
     margin-right: 1rem;
+    align-self: center;
+    margin-bottom: 2rem;
   }
 
   .main4l h3 {
