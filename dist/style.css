@@ -239,6 +239,7 @@ h1, h2, h3, h4, h5, h6{
   /* top: 50%; */
   bottom: 5%;
   z-index: 1;
+  max-width: 100%;
 }
 
 main {
@@ -1056,7 +1057,6 @@ input {
   }
 
   .mb-flex{
-    border: 1px solid red;
     display: flex;
     flex-direction: column-reverse;
   }
@@ -1067,6 +1067,8 @@ input {
   .chat-container {
     bottom: 40%;
     z-index: 100;
+    right: 6rem;
+    border: 1px solid red;
     /* position: fixed; */
   }
 
