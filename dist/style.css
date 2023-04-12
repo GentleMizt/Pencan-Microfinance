@@ -1067,10 +1067,9 @@ input {
   }
 
   .chat-container {
-    bottom: 40%;
+    bottom: 32%;
     z-index: 100;
-    right: 6rem;
-    border: 1px solid red;
+    right: 1rem;
     /* position: fixed; */
   }
 
