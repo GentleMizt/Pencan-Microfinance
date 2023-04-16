@@ -1073,6 +1073,7 @@ input {
     /* position: fixed; */
   }
 
+  
   #main-flex {
     flex-direction: column;
   }
