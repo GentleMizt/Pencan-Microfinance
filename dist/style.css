@@ -228,8 +228,8 @@ main {
   border-radius: 2rem;
   width: 67.1rem;
   padding-left: 6rem;
-  padding-top: 17.2rem;
-  padding-right: 7rem;
+  padding: 11.7rem 7rem 11.7rem 6rem;
+  border: 1px solid red;
 }
 
 .first {
