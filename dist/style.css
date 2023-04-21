@@ -255,6 +255,10 @@ main {
   font-family: 'Inter', sans-serif;
 }
 
+.inter-p{
+  font-family: 'Inter', sans-serif;
+}
+
 #v-more {
  background-color: white;
  text-align: center;
@@ -271,6 +275,8 @@ main {
 
 #v-more:hover{
   transform: scale(.85);
+  background-color: #dafd83;
+  color: #f17829;
 }
 
 #main1-row1 img {
