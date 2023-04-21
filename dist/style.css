@@ -208,18 +208,19 @@ h1, h2, h3, h4, h5, h6{
 
 #c-row{
   display: flex;
-  border: 1px solid red;
   align-items: center;
   justify-content: space-between;
   width: 90%;
+  margin-top: 3.2rem;
 }
 
 #c-row p{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.4rem;
   line-height: 2.0rem;
+  flex-basis: 45%;
 }
 
 .chat-container {
