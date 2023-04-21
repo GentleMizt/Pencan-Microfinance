@@ -255,8 +255,17 @@ main {
 
 #v-more {
  background-color: white;
+ text-align: center;
  padding: 1.5rem 3.4rem;
+ margin-top: 6rem;
  color: #1C9FF3;
+ width: 27%;
+ border-radius: 10px;
+ transition: .7s;
+}
+
+#v-more:hover{
+  transform: scale(.8);
 }
 
 #main1-row1 img {
