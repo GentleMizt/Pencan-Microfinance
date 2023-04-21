@@ -205,6 +205,11 @@ h1, h2, h3, h4, h5, h6{
   font-size: 12px;
   line-height: 14px;
 }
+
+#c-row{
+  display: flex;
+  border: 1px solid red;
+}
 .chat-container {
   display: flex;
   justify-content: right;
@@ -229,7 +234,6 @@ main {
   width: 67.1rem;
   padding-left: 6rem;
   padding: 11.7rem 7rem 11.7rem 6rem;
-  border: 1px solid red;
 }
 
 .first {
@@ -267,14 +271,14 @@ main {
  color: #1C9FF3;
  width: 30%;
  border-radius: 10px;
- transition: .7s;
  font-family: 'Inter', sans-serif;
  font-weight: 500;
  font-size: 1.6rem;
+ transition: .7s;
 }
 
 #v-more:hover{
-  transform: scale(.85);
+  transform: scale(.9);
   background-color: #dafd83;
   color: #f17829;
 }
