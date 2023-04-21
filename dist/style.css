@@ -1236,6 +1236,18 @@ input {
     margin-top: 2rem;
   }
 
+  #pb{
+    text-align: center;
+    position: relative;
+  }
+  
+  .ndic-fimg{
+    position: absolute;
+    top: 12rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   /* --------------------------------------------------------- ABOUT US MEDIA QUERY BEGINS HERE --------------------------------------------------------------- */
   .mobile {
     display: block;
