@@ -659,6 +659,17 @@ footer p {
   line-height: 30px;
 }
 
+#pb{
+  text-align: center;
+  position: relative;
+}
+
+.ndic-fimg{
+  position: absolute;
+  top: .5rem;
+  left: 5rem;
+}
+
 @keyframes fadeInOut {
   0% {
     opacity: 0;
