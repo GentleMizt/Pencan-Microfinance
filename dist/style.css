@@ -253,11 +253,10 @@ main {
   color: #DAFD83;
 }
 
-#plussss {
-  display: flex;
-  justify-content: right;
-  margin-top: 10.5rem;
-  padding-bottom: 2rem;
+#v-more {
+ background-color: white;
+ padding: 1.5rem 3.4rem;
+ color: #1C9FF3;
 }
 
 #main1-row1 img {
