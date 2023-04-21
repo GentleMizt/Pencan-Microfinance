@@ -19,12 +19,12 @@ body {
   padding-right: 0;
   padding-left: 0;
   width: 90%;
-  /* border: 1px solid red; */
 }
 
 h1, h2, h3, h4, h5, h6{
   margin-bottom: 0;
 }
+
 #preloader {
   position: fixed;
   width: 100vw;
@@ -243,6 +243,7 @@ main {
   font-weight: 600;
   font-size: 4.8rem;
   margin-bottom: 2rem;
+  font-family: 'Inter', sans-serif;
 }
 
 #main1-row2s {
@@ -251,6 +252,7 @@ main {
   line-height: 2.4rem;
   margin-bottom: 1rem;
   color: #DAFD83;
+  font-family: 'Inter', sans-serif;
 }
 
 #v-more {
@@ -259,9 +261,12 @@ main {
  padding: 1.5rem 3.4rem;
  margin-top: 6rem;
  color: #1C9FF3;
- width: 27%;
+ width: 30%;
  border-radius: 10px;
  transition: .7s;
+ font-family: 'Inter', sans-serif;
+ font-weight: 500;
+ font-size: 1.6rem;
 }
 
 #v-more:hover{
