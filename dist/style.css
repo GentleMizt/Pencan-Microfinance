@@ -1090,7 +1090,7 @@ input {
     top: 27rem;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 120%;
+    width: 100%;
   }
 
   .chat-container {
