@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .navbar-toggler {
-  background-color: #1c9ff3;
+  background-color: $color-pry;
 }
 
 #navbar .nav-item {
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #btn-internet {
-  background: #1c9ff3;
+  background: $color-pry;
   border-radius: 1rem;
   border: none;
   outline: none;
