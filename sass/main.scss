@@ -10,25 +10,6 @@
 @import 'layouts/header';
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700;800&display=swap');
-.container {
-  padding-right: 0;
-  padding-left: 0;
-  width: 90%;
-}
-
-.home-header {
-  /* background-image: url(./Cimg/banner-inn.png); */
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-}
-
-.header-bg{
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -1;
-}
 
 .main-banner {
   margin-bottom: 11rem;
