@@ -22,27 +22,6 @@ h1, h2, h3, h4, h5, h6{
   margin-bottom: 0;
 }
 
-#preloader {
-  position: fixed;
-  width: 100vw;
-  min-height: 100vh;
-  background: url(./Cimg/splash.png);
-  /* background-color: #1c9ff3; */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 9999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#spinner img {
-  opacity: 0;
-  width: 85%;
-  animation: fadeInOut 3s infinite;
-}
-
 .home-header {
   /* background-image: url(./Cimg/banner-inn.png); */
   background-repeat: no-repeat;
