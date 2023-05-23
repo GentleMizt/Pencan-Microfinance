@@ -9,6 +9,7 @@
 @import 'components/navbar';
 @import 'components/chat-container';
 @import 'layouts/header';
+@import 'layouts/footer';
 @import 'pages/home';
 @import 'pages/about';
 @import 'pages/contact';
@@ -17,94 +18,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700;800&display=swap');
 main {
   margin-top: 4.2rem;
-}
-
-.main5 {
-  margin-top: 40.38px;
-}
-
-.main5-feed {
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.m5-img {
-  margin: 0 24px;
-}
-
-.m5-img2 {
-  margin-right: 14px;
-}
-
-.slide-cont {
-  position: relative;
-}
-
-.img-slider {
-  display: flex;
-  margin-top: 20px;
-  flex-basis: 100%;
-  margin-left: 0;
-  justify-content: space-between;
-}
-
-.i-slider-cnt {
-  flex-basis: 25%;
-}
-
-.img-slider img {
-  width: 95%;
-}
-
-.slide-arrow {
-  width: 46px;
-  height: 46px;
-  position: absolute;
-  top: 43%;
-  right: 0;
-}
-
-footer {
-  padding-bottom: 38px;
-}
-
-#footer {
-  display: flex;
-  justify-content: space-between;
-}
-
-footer li {
-  margin-top: 10px;
-}
-footer a {
-  color: black;
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 30px;
-}
-
-footer h4 {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 30px;
-  color: #f17829;
-}
-
-footer p {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 30px;
-}
-
-#pb{
-  text-align: center;
-  position: relative;
-}
-
-.ndic-fimg{
-  position: absolute;
-  top: .5rem;
-  left: 5rem;
 }
 
 @keyframes fadeInOut {

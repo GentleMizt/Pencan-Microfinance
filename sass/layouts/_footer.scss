@@ -1,0 +1,42 @@
+footer {
+  padding-bottom: 38px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer li {
+  margin-top: 10px;
+}
+footer a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+footer h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #f17829;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+#pb {
+  text-align: center;
+  position: relative;
+}
+
+.ndic-fimg {
+  position: absolute;
+  top: 0.5rem;
+  left: 5rem;
+}
