@@ -290,3 +290,56 @@
 }
 
 //MAIN7
+.main7-section {
+  margin-top: 100px;
+  margin-bottom: 83px;
+}
+
+.main7-cont {
+  padding: 94px 0;
+  background: #1c9ff3;
+  border-radius: 10px;
+}
+
+.main7-head {
+  text-align: center;
+}
+#main7h {
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+#main7p {
+  color: #dafd83;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.input-field {
+  width: 50%;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  outline: none;
+}
+
+.input-field input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px 22px;
+  border-radius: 10px;
+}
+
+.input-field button {
+  background: #dafd83;
+  padding: 10px 29px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
