@@ -311,24 +311,29 @@
   margin-top: 11.1rem;
 }
 
-#main6 {
-  flex-basis: 40%;
+.main6-flex {
+  display: flex;
+  justify-content: space-between;
+
+  #main6 {
+    flex-basis: 40%;
+  }
+
+  .main6-img-div{
+
+    & img{
+
+    }
+  }
+
 }
+
 
 #main6h {
   font-weight: 500;
   font-size: 2.4rem;
   line-height: 3.0rem;
   margin-bottom: 1.2rem;
-}
-
-.main6-flex {
-  display: flex;
-  justify-content: space-between;
-}
-
-.main6-img-div img {
-  margin-right: 4rem;
 }
 
 //MAIN7
