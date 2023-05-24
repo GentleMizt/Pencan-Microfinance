@@ -262,20 +262,20 @@
 
 //MAIN5
 .main5 {
-  margin-top: 40.38px;
+  margin-top: 4.038rem;
 }
 
 .main5-feed {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .m5-img {
-  margin: 0 24px;
+  margin: 0 2.4rem;
 }
 
 .m5-img2 {
-  margin-right: 14px;
+  margin-right: 1.4rem;
 }
 
 .slide-cont {
@@ -284,10 +284,10 @@
 
 .img-slider {
   display: flex;
+  justify-content: space-between;
   margin-top: 2rem;
   flex-basis: 100%;
   margin-left: 0;
-  justify-content: space-between;
 }
 
 .i-slider-cnt {
