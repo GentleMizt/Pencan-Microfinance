@@ -39,7 +39,7 @@
       text-align: center;
       padding: 1.5rem 3.4rem;
       margin-top: 6rem;
-      color: #1c9ff3;
+      color: $color-pry;
       width: 30%;
       min-width: 15.5rem;
       border-radius: 10px;
@@ -50,8 +50,8 @@
 
       &:hover {
         transform: scale(0.9);
-        background-color: #dafd83;
-        color: #f17829;
+        background-color: $color-sec;
+        color: $color-ter;
       }
     }
   }
@@ -62,7 +62,6 @@
   background-repeat: no-repeat;
   color: #fff;
 }
-
 
 // MAIN CNT-2
 .main-cnt2 {
