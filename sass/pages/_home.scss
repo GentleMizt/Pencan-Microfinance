@@ -335,14 +335,14 @@
 
 //MAIN7
 .main7-section {
-  margin-top: 10.0rem;
+  margin-top: 10rem;
   margin-bottom: 8.3rem;
 }
 
 .main7-cont {
   padding: 9.4rem 0;
   background: #1c9ff3;
-  border-radius: 1.0rem;
+  border-radius: 1rem;
 
   .main7-head {
     text-align: center;
@@ -351,14 +351,14 @@
       color: #fff;
       font-weight: 500;
       font-size: 2.4rem;
-      line-height: 3.0rem;
+      line-height: 3rem;
     }
 
     #main7p {
       color: #dafd83;
       font-weight: 400;
       font-size: 1.4rem;
-      line-height: 2.0rem;
+      line-height: 2rem;
     }
   }
 
@@ -368,25 +368,23 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
-    border-radius: 1.0rem;
+    border-radius: 1rem;
     outline: none;
+
+    & input {
+      width: 100%;
+      border: none;
+      outline: none;
+      padding: 1rem 2.2rem;
+      border-radius: 1rem;
+    }
+
+    & button {
+      background: #dafd83;
+      padding: 1rem 2.9rem;
+      border-radius: 1rem;
+      border: none;
+      outline: none;
+    }
   }
-
-}
-
-
-.input-field input {
-  width: 100%;
-  border: none;
-  outline: none;
-  padding: 1.0rem 2.2rem;
-  border-radius: 1.0rem;
-}
-
-.input-field button {
-  background: #dafd83;
-  padding: 1.0rem 2.9rem;
-  border-radius: 1.0rem;
-  border: none;
-  outline: none;
 }
