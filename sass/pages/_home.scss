@@ -335,14 +335,14 @@
 
 //MAIN7
 .main7-section {
-  margin-top: 100px;
-  margin-bottom: 83px;
+  margin-top: 10.0rem;
+  margin-bottom: 8.3rem;
 }
 
 .main7-cont {
-  padding: 94px 0;
+  padding: 9.4rem 0;
   background: #1c9ff3;
-  border-radius: 10px;
+  border-radius: 1.0rem;
 
   .main7-head {
     text-align: center;
@@ -350,41 +350,43 @@
     #main7h {
       color: #fff;
       font-weight: 500;
-      font-size: 24px;
-      line-height: 30px;
+      font-size: 2.4rem;
+      line-height: 3.0rem;
     }
 
     #main7p {
       color: #dafd83;
       font-weight: 400;
-      font-size: 14px;
-      line-height: 20px;
+      font-size: 1.4rem;
+      line-height: 2.0rem;
     }
   }
+
+  .input-field {
+    width: 50%;
+    background-color: $color-white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1.0rem;
+    outline: none;
+  }
+
 }
 
-.input-field {
-  width: 50%;
-  background-color: #fff;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  border-radius: 10px;
-  outline: none;
-}
 
 .input-field input {
   width: 100%;
   border: none;
   outline: none;
-  padding: 10px 22px;
-  border-radius: 10px;
+  padding: 1.0rem 2.2rem;
+  border-radius: 1.0rem;
 }
 
 .input-field button {
   background: #dafd83;
-  padding: 10px 29px;
-  border-radius: 10px;
+  padding: 1.0rem 2.9rem;
+  border-radius: 1.0rem;
   border: none;
   outline: none;
 }
