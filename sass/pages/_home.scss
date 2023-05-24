@@ -35,19 +35,25 @@
     }
 
     #v-more {
-        background-color: white;
-        text-align: center;
-        padding: 1.5rem 3.4rem;
-        margin-top: 6rem;
-        color: #1c9ff3;
-        width: 30%;
-        min-width: 15.5rem;
-        border-radius: 10px;
-        font-family: 'Inter', sans-serif;
-        font-weight: 500;
-        font-size: 1.6rem;
-        transition: 0.7s;
+      background-color: white;
+      text-align: center;
+      padding: 1.5rem 3.4rem;
+      margin-top: 6rem;
+      color: #1c9ff3;
+      width: 30%;
+      min-width: 15.5rem;
+      border-radius: 10px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 1.6rem;
+      transition: 0.7s;
+
+      &:hover {
+        transform: scale(0.9);
+        background-color: #dafd83;
+        color: #f17829;
       }
+    }
   }
 }
 
@@ -58,9 +64,6 @@
 }
 
 #v-more:hover {
-  transform: scale(0.9);
-  background-color: #dafd83;
-  color: #f17829;
 }
 
 // MAIN CNT-2
