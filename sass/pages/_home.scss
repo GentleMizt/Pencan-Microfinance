@@ -120,9 +120,7 @@
 }
 
 .test-flex {
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
+  @include dflexcomp;
   gap: 2rem;
 
   .test-left {
@@ -177,8 +175,7 @@
 }
 
 #main3r {
-  display: flex;
-  justify-content: space-between;
+  @include dflexhalf;
   align-items: center;
 }
 
@@ -217,8 +214,7 @@
 }
 
 #main4 {
-  display: flex;
-  justify-content: space-between;
+  @include dflexhalf;
   width: 100%;
 
   .main4l {
@@ -283,8 +279,7 @@
 }
 
 .img-slider {
-  display: flex;
-  justify-content: space-between;
+  @include dflexhalf;
   margin-top: 2rem;
   flex-basis: 100%;
   margin-left: 0;
