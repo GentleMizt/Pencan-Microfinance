@@ -119,6 +119,24 @@
   overflow: hidden;
 }
 
+.test-flex {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+
+  .test-left {
+    flex-basis: 40%;
+    width: 100%;
+  }
+  
+  .test-ryt {
+    flex-basis: 50%;
+  }
+
+}
+
+
 .carousel {
   width: 100%;
   margin: 0 auto;
@@ -144,22 +162,6 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
-}
-
-.test-flex {
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-  gap: 2rem;
-}
-
-.test-left {
-  flex-basis: 40%;
-  width: 100%;
-}
-
-.test-ryt {
-  flex-basis: 50%;
 }
 
 #main3h {
