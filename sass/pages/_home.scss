@@ -241,18 +241,21 @@
   .main4r {
     flex-basis: 25.5%;
     background-color: $color-pry;
-    color: #fff;
+    color: $color-white;
     text-align: center;
     padding: 1.5rem 0;
     border-radius: 0.5rem;
     transition: 0.5s;
+
+    &:hover {
+      background-color: #dafd83;
+      color: #f17829;
+      transform: scale(1.1);
+    }
   }
 }
 
 .main4r:hover {
-  background-color: #dafd83;
-  color: #f17829;
-  transform: scale(1.1);
 }
 
 .main4r h3 {
