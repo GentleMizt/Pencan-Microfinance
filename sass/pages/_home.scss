@@ -201,7 +201,7 @@
 }
 
 #main3r2 a i:hover {
-  background-color: #f17829;
+  background-color: $color-ter;
 }
 
 .carousel-control-prev,
@@ -217,20 +217,30 @@
 }
 
 #main4 {
-  /* border: 1px solid red; */
   display: flex;
-  /* align-items: center; */
   justify-content: space-between;
   width: 100%;
+
+  .main4l {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    flex-basis: 50%;
+  }
+
+  .main4r {
+    flex-basis: 25.5%;
+    background-color: #1c9ff3;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+  }
+
+
 }
 
-.main4l {
-  display: flex;
-  align-items: center;
-  gap: 2.4rem;
-  flex-basis: 50%;
-  /* border: 1px solid blue; */
-}
 
 .main4l h3 {
   font-weight: 400;
@@ -240,16 +250,6 @@
 .main4l-socials {
   display: flex;
   gap: 1.78rem;
-}
-
-.main4r {
-  flex-basis: 25.5%;
-  background-color: #1c9ff3;
-  color: #fff;
-  text-align: center;
-  padding: 1.5rem 0;
-  border-radius: 0.5rem;
-  transition: 0.5s;
 }
 
 .main4r:hover {
