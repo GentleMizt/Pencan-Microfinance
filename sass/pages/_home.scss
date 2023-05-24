@@ -248,8 +248,8 @@
     transition: 0.5s;
 
     &:hover {
-      background-color: #dafd83;
-      color: #f17829;
+      background-color: $color-sec;
+      color: $color-ter;
       transform: scale(1.1);
     }
   }
