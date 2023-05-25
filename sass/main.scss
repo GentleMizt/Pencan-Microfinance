@@ -28,21 +28,20 @@ main {
 
 .mcnt3-flex {
   display: flex;
-
   
+  .mcnt3-bgblue {
+    background-color: $color-pry;
+    color: $color-white;
+    padding: 8.2rem 12.9rem 7.2rem 19.9rem;
+  }
+  
+  .mcnt3-bgblue2 {
+    background-color: $color-pry;
+    color: $color-white;
+    padding: 8.2rem 24.4rem 10.4rem 9.8rem;
+  }
 }
 
-.mcnt3-bgblue {
-  background-color: #1c9ff3;
-  color: #fff;
-  padding: 8.2rem 12.9rem 7.2rem 19.9rem;
-}
-
-.mcnt3-bgblue2 {
-  background-color: #1c9ff3;
-  color: #fff;
-  padding: 8.2rem 24.4rem 10.4rem 9.8rem;
-}
 
 .mcnt3-h p {
   font-weight: 600;
