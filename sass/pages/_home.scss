@@ -307,8 +307,7 @@
 }
 
 .main6-flex {
-  display: flex;
-  justify-content: space-between;
+  @include dflexhalf;
 
   #main6 {
     flex-basis: 40%;
