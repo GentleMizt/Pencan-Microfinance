@@ -109,3 +109,42 @@
   margin-top: 5.2rem;
 }
 
+
+.abt-main-cnt3 {
+  background: $color-sec;
+  margin: 10rem 0 6.3rem 0;
+}
+
+.mcnt3-flex {
+  display: flex;
+  
+  .mcnt3-bgblue {
+    background-color: $color-pry;
+    color: $color-white;
+    padding: 8.2rem 12.9rem 7.2rem 19.9rem;
+  }
+  
+  .mcnt3-bgblue2 {
+    background-color: $color-pry;
+    color: $color-white;
+    padding: 8.2rem 24.4rem 10.4rem 9.8rem;
+  }
+}
+
+.mcnt3-h p {
+  font-weight: 600;
+  font-size: 3.6rem;
+  line-height: 4rem;
+  margin-top: 1.3rem;
+}
+
+.p-finance {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+
+.lft {
+  margin-right: 2.1rem;
+}
+
