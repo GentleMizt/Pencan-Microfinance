@@ -18,12 +18,10 @@
 .main-abt-img {
   margin-top: -6.5rem;
 
-  & img{
+  & img {
     width: 100%;
+    border: 1px solid red;
   }
-}
-
-.main-abt-img img {
 }
 
 .mobile {
