@@ -30,43 +30,43 @@
 
 //ABT-CONTENT1
 .mcnt-ryt {
-    padding-top: 12.2rem;
-    padding-bottom: 12.2rem;
-  
-    .mcnt1-h {
-      color: $color-pry;
-      font-weight: 600;
-      font-size: 3.6rem;
-      line-height: 4rem;
-    }
-  
-    .mcnt1-vimg {
-      & img {
-        margin-left: 2rem;
-        margin-top: -3rem;
-      }
-    }
-  
-    .mcnt1-p1 {
-      margin-top: 10.5rem;
-      @include about-para-typo;
-    }
-  
-    .mcnt1-p2 {
-      margin-top: 4rem;
-      @include about-para-typo;
+  padding-top: 12.2rem;
+  padding-bottom: 12.2rem;
+
+  .mcnt1-h {
+    color: $color-pry;
+    font-weight: 600;
+    font-size: 3.6rem;
+    line-height: 4rem;
+  }
+
+  .mcnt1-vimg {
+    & img {
+      margin-left: 2rem;
+      margin-top: -3rem;
     }
   }
-  
-  .scnd-in-cnt1 {
-    margin-top: 10rem;
+
+  .mcnt1-p1 {
+    margin-top: 10.5rem;
+    @include about-para-typo;
   }
-  
-  .scnd-vimg {
-    margin-left: 5rem;
-    margin-top: 2rem;
+
+  .mcnt1-p2 {
+    margin-top: 4rem;
+    @include about-para-typo;
   }
-  
-  .scnd-cnt1-mobile {
-    display: none;
-  }
+}
+
+.scnd-in-cnt1 {
+  margin-top: 10rem;
+}
+
+.scnd-vimg {
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+
+.scnd-cnt1-mobile {
+  display: none;
+}
