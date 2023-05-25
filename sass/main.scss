@@ -42,17 +42,13 @@ main {
 
   .mcnt1-p1 {
     margin-top: 10.5rem;
+    @include about-para-typo;
   }
 
   .mcnt1-p2 {
     margin-top: 4rem;
+    @include about-para-typo;
   }
-}
-
-
-.mcnt1-p1,
-.mcnt1-p2 {
-
 }
 
 .scnd-in-cnt1 {
