@@ -22,12 +22,14 @@ main {
 
 /*     ------------------------------------------------------------------------ ABOUT US STYLING BEGINS HERE ---------------------------------------------------------------------- */
 .abt-main-cnt3 {
-  background: #dafd83;
+  background: $color-sec;
   margin: 10rem 0 6.3rem 0;
 }
 
 .mcnt3-flex {
   display: flex;
+
+  
 }
 
 .mcnt3-bgblue {
