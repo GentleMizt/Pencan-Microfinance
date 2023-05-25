@@ -33,13 +33,17 @@ main {
     line-height: 4rem;
   }
 
+  .mcnt1-vimg{
+    & img{
+
+      margin-left: 2rem;
+      margin-top: -3rem;
+    }
+  }
 }
 
 
-.mcnt1-vimg img {
-  margin-left: 2rem;
-  margin-top: -3rem;
-}
+
 
 .mcnt1-p1 {
   margin-top: 10.5rem;
