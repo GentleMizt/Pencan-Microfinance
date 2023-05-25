@@ -8,3 +8,10 @@
   display: flex;
   justify-content: space-between;
 }
+
+@mixin about-para-typo{
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  width: 80%;
+}
