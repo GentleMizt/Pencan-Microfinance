@@ -17,10 +17,13 @@
 
 .main-abt-img {
   margin-top: -6.5rem;
+
+  & img{
+    width: 100%;
+  }
 }
 
 .main-abt-img img {
-  width: 100%;
 }
 
 .mobile {
