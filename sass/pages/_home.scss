@@ -361,8 +361,7 @@
     width: 50%;
     background-color: $color-white;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
+    @include dflexhalf;
     border-radius: 1rem;
     outline: none;
 
