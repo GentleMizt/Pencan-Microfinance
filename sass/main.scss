@@ -33,17 +33,13 @@ main {
     line-height: 4rem;
   }
 
-  .mcnt1-vimg{
-    & img{
-
+  .mcnt1-vimg {
+    & img {
       margin-left: 2rem;
       margin-top: -3rem;
     }
   }
 }
-
-
-
 
 .mcnt1-p1 {
   margin-top: 10.5rem;
@@ -392,7 +388,7 @@ input {
     margin-left: 0;
   }
 
-  .mb-flex{
+  .mb-flex {
     display: flex;
     flex-direction: column-reverse;
   }
@@ -401,7 +397,7 @@ input {
     margin-top: 50px;
   }
 
-  .header-bg{
+  .header-bg {
     top: 27rem;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -424,7 +420,7 @@ input {
     padding: 20px;
   }
 
-  #v-more{
+  #v-more {
     width: 50%;
   }
 
@@ -563,12 +559,12 @@ input {
     margin-top: 2rem;
   }
 
-  #pb{
+  #pb {
     text-align: center;
     position: relative;
   }
-  
-  .ndic-fimg{
+
+  .ndic-fimg {
     position: absolute;
     top: 12rem;
     left: 50%;
