@@ -92,6 +92,8 @@
 
     &-right {
       flex-basis: 50%;
+      position: relative;
+
 
       .testimonial__flex--img {
         border: 5px solid $color-grey-pry;
@@ -122,8 +124,9 @@
       }
       .play-icon{
         position: absolute;
-        bottom: 14rem;
-        left: 22rem;
+        bottom: 13rem;
+        left: 21rem;
+        // border: 1px solid red;
       }
     }
   }
