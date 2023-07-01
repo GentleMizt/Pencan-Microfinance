@@ -14,15 +14,55 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 2.9rem;
+
+  @include respond-768px{
+    visibility: hidden;
+    opacity: 0;
+    border: 1px solid blue;
+  }
+}
+
+.nav-active{
+  display: none;
+}
+
+.fa-bars{
+  position: absolute;
+  top: 3rem;
+  right: 10rem;
+  z-index: 1;
+  font-size: 2.5rem;
+  // display: none;
+
+  @include respond-768px{
+    display: block;
+    position: relative;
+    right: 5rem;
+  }
 }
 
 .navbar-brand{
   flex-basis: 15%;
   display: inline-block;
+
+  @include respond(tab-land){
+    border: 1px solid red;
+    flex-basis: 10%;
+  }
 }
 
 #navbarSupportedContent{
   flex-basis: 40%;
+
+  @include respond(tab-land){
+    border: 1px solid red;
+    flex-basis: 35%;
+  }
+
+  @include respond-992px{
+    flex-basis: 40%;
+    border: 1px solid blue;
+  }
 }
 
 .nav1 {
@@ -30,6 +70,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.btn-internet-div{
+  flex-basis: 20%;
+
+  @include respond-992px{
+    flex-basis: 25%;
+  }
 }
 
 .nav1 .nav-item {
@@ -46,9 +94,6 @@
   color: #1c9ff3;
 }
 
-.btn-internet-div{
-  flex-basis: 20%;
-}
 
 #btn-internet {
   width: 100%;

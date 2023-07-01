@@ -2,6 +2,11 @@
 AOS.init();
 console.log('hello About Us');
 
+const menuBar = document.querySelector('.fa-bars');
+
+
+
+
 let preloader = document.getElementById('preloader');
 let loader = true;
 
@@ -12,6 +17,10 @@ if (loader === true) {
     loader = false;
   }, 8500);
 }
+
+menuBar.addEventListener('click', (e)=>{
+  menuBar.classList.toggle('fa-times')
+})
 
 // let bannerImages = ['./dist/Cimg/banner1.png', './dist/Cimg/scnd-main-img.png'];
 
