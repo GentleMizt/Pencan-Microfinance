@@ -5,18 +5,13 @@
 }
 
 .home-header {
-  // background-repeat: no-repeat;
-  // background-size: contain;
   position: relative;
 }
-// LANDING PAGE BANNER OF THE HEADER
 
+// LANDING PAGE BANNER OF THE HEADER
 .main-banner {
   margin-bottom: 11rem;
 }
-
-// .banner img {
-// }
 
 #main-ban-head {
   font-weight: 600;
@@ -46,32 +41,38 @@
 .get-div {
   display: flex;
   gap: 1rem;
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 
 .get-img {
   margin-right: 1.5rem;
 }
 
+.r-img{
+
+}
+
 .get-img img {
-  width: 150%;
+  width: 120%;
 }
 
 .get1,
 .get2,
 .get3 {
-  flex-basis: 31%;
+  flex-basis: 30%;
 }
 
 .get1,
 .get2 {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background: #000000;
   color: #fff;
   border-radius: 1rem;
-  padding: 1.02rem 1.5rem 0.9rem 1.5rem;
+  // padding: 1.02rem 1.5rem 0.9rem 1.5rem;
 }
+
 .get3 {
   display: flex;
   align-items: center;
