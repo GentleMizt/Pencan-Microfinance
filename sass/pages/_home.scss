@@ -114,12 +114,13 @@
 
   .signup__container{
     border: 1px solid red;
+    width: 90%;
+    margin: auto;
 
     &--flex{
       @include dflexcomp;
       
       &--left{
-        border: 1px solid blue;
         font-size: 2rem;
         font-weight: 500;
         line-height: 3rem;
@@ -127,12 +128,16 @@
       }
 
       &--right{
-        border: 1px solid black
+        flex-basis: 60%;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
 
-        p{
+        & p{
           font-size: 1.6rem;
           line-height: 2rem;
           font-weight: 400;
+          width: 90%;
         }
 
         @include g-now2;
