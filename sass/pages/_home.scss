@@ -4,11 +4,12 @@
 }
 #main-flex {
   display: flex;
+  align-items: center;
   gap: 2rem;
 
   #main1-row1 img {
-    width: 100%;
-    height: 100%;
+    width: 85%;
+    // height: 100%;
   }
 
   #main1-row2 {
@@ -20,7 +21,6 @@
     #main1-row2h {
       font-weight: 600;
       font-size: 4.8rem;
-      margin-bottom: 2rem;
       font-family: 'Inter', sans-serif;
       color: $color-black;
       line-height: 5rem;
@@ -41,17 +41,17 @@
       font-size: 1.4rem;
       line-height: 2.5rem;
       font-weight: 400;
+      margin: 2.4rem 0;
     }
 
-    #v-more {
-      background-color: white;
+    #g-now {
+      background-color: $color-pry;
       text-align: center;
       padding: 1.5rem 3.4rem;
-      margin-top: 6rem;
-      color: $color-pry;
-      width: 30%;
+      color: $color-white;
+      width: 55%;
       min-width: 15.5rem;
-      border-radius: 10px;
+      border-radius: 1rem;
       font-family: 'Inter', sans-serif;
       font-weight: 500;
       font-size: 1.6rem;
