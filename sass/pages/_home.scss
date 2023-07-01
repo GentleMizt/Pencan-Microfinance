@@ -129,6 +129,19 @@
       }
     }
   }
+
+  .signup__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--flex{
+      color: #000;
+      font-size: 3rem;
+      font-weight: 500;
+      line-height: 3rem;
+    }
+  }
 }
 
 //MAIN4
