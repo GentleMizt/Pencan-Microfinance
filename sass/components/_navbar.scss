@@ -13,26 +13,26 @@
 }
 
 .nav-container{
-  border: 1px solid red;
+  // border: 1px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 2.9rem;
 }
 
 .navbar-brand{
   flex-basis: 15%;
   display: inline-block;
-  border: 1px solid black;
+  // border: 1px solid black;
 }
 
 #navbarSupportedContent{
-  flex-basis: 50%;
-  border: 1px solid blue;
+  flex-basis: 40%;
+  // border: 1px solid blue;
 }
 
 .nav1 {
-  // margin-left: 8.5rem;
-  border: 1px solid black;
+  // border: 1px solid black;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -70,15 +70,18 @@
   color: #1c9ff3;
 }
 
+.btn-internet-div{
+  flex-basis: 20%;
+  // border: 1px solid black;
+}
+
 #btn-internet {
+  width: 100%;
   background: $color-pry;
   border-radius: 1rem;
   border: none;
   outline: none;
   color: #ffffff;
   padding: 1.3rem 3.4rem;
-  // margin-left: 4rem;
-  // position: relative;
-  // top: -1.5rem;
   transition: 0.5s;
 }
