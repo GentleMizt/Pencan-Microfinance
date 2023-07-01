@@ -2,6 +2,7 @@
 .main-cnt1{
   background-color: $color-blue-sec;
 }
+
 #main-flex {
   display: flex;
   align-items: center;
@@ -9,7 +10,6 @@
 
   #main1-row1 img {
     width: 85%;
-    // height: 100%;
   }
 
   #main1-row2 {
@@ -24,15 +24,6 @@
       font-family: 'Inter', sans-serif;
       color: $color-black;
       line-height: 5rem;
-    }
-
-    #main1-row2s {
-      font-weight: 600;
-      font-size: 2rem;
-      line-height: 2.4rem;
-      margin-bottom: 1rem;
-      color: #dafd83;
-      font-family: 'Inter', sans-serif;
     }
 
     .inter-p {
@@ -67,20 +58,25 @@
 }
 
 .first {
-  // background: url(../dist/Cimg/flex-bg.png);
   background-repeat: no-repeat;
   color: #fff;
 }
 
 // MAIN CNT-2
 .main-cnt2 {
-  margin-top: 10rem;
+  margin-top: 5.1rem;
+  background-color: $color-grey-pry;
 }
 
 // MAIN CNT-3
 .main-cnt3 {
-  margin-top: 10.3rem;
-  margin-bottom: 10rem;
+  margin-top: 5.1rem;
+  background-color: $color-blue-sec;
+}
+
+// MAIN CNT-4
+.main-cnt4 {
+  margin-top: 5.1rem;
 }
 
 //MAIN2
