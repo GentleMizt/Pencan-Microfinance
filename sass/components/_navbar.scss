@@ -5,15 +5,11 @@
 
 #navbar {
   font-size: 1.4rem;
-  // padding-top: 4.7rem;
-  // padding-bottom: 0px;
   color: #808081;
   position: relative;
-  // border: 1px solid red;
 }
 
 .nav-container{
-  // border: 1px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,16 +19,13 @@
 .navbar-brand{
   flex-basis: 15%;
   display: inline-block;
-  // border: 1px solid black;
 }
 
 #navbarSupportedContent{
   flex-basis: 40%;
-  // border: 1px solid blue;
 }
 
 .nav1 {
-  // border: 1px solid black;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -40,10 +33,7 @@
 }
 
 .nav1 .nav-item {
-  // padding: 7px 10px;
   transition: 0.3s all;
-  // flex-basis: 23%;
-  // border: 1px solid blue;
 }
 
 #navbar .nav-link {
@@ -51,28 +41,13 @@
   color: #808081;
 }
 
-.links a {
-  // margin-right: 2.6rem;
-  /* border: 1px solid red; */
-}
-
 #navbar .nav-link:hover {
   transition: 0.3s all;
   color: #1c9ff3;
 }
 
-// .logo {
-//   position: relative;
-// }
-
-
-.dropdown {
-  color: #1c9ff3;
-}
-
 .btn-internet-div{
   flex-basis: 20%;
-  // border: 1px solid black;
 }
 
 #btn-internet {
