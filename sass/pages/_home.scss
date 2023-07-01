@@ -93,6 +93,23 @@
 //MAIN3
 .main3 {
   padding-top: 10rem;
+
+  .testimonial__flex{
+    border: 1px solid red;
+    @include dflexcomp;
+
+    &-left{
+      border: 1px solid blue;
+      flex-basis: 30%;
+
+      & p{
+        color: #000;
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 5rem;
+      }
+    }
+  }
 }
 
 //MAIN4
