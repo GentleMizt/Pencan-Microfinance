@@ -57,11 +57,6 @@
   }
 }
 
-.first {
-  background-repeat: no-repeat;
-  color: #fff;
-}
-
 // MAIN CNT-2
 .main-cnt2 {
   margin-top: 5.1rem;
@@ -81,41 +76,17 @@
 
 //MAIN2
 .main2 {
-  background: #f5f5f5;
-  padding-top: 3.5rem;
+  background: $color-grey-pry;
 }
 
-#main2h {
-  font-weight: 500;
-  font-size: 3.2rem;
-  margin-top: 4.1rem;
-  margin-bottom: 1.3rem;
-  line-height: 1.3;
-}
-
-#main2p {
-  margin-bottom: 3rem;
-}
-
-.d1 {
-  width: 100%;
-  margin-bottom: 1.5rem;
-}
-
-.D-download {
-  margin-right: 3.9rem;
-}
-
-.bqr {
-  margin-top: 1rem;
-}
-
-.d-desktop {
-  display: flex;
-}
-
-.d-mobile {
-  display: none;
+.main2__top--p{
+  color: $color-black;
+  font-size: 3.7rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  line-height: 5rem;
+  width: 35%;
+  border: 1px solid red;
 }
 
 //MAIN3
