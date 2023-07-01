@@ -20,13 +20,14 @@
 }
 
 .navbar-brand{
-  flex-basis: 20%;
+  flex-basis: 15%;
   display: inline-block;
+  border: 1px solid black;
 }
 
 #navbarSupportedContent{
-  flex-basis: 60%;
-  // border: 1px solid blue;
+  flex-basis: 50%;
+  border: 1px solid blue;
 }
 
 .nav1 {
