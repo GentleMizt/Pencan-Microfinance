@@ -9,17 +9,29 @@
   // padding-bottom: 0px;
   color: #808081;
   position: relative;
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 
-.navbar-toggler {
-  background-color: $color-pry;
+.nav-container{
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand{
+  flex-basis: 20%;
+}
+
+#navbarSupportedContent{
+  flex-basis: 60%;
+  border: 1px solid blue;
 }
 
 #navbar .nav-item {
   // padding: 7px 10px;
   transition: 0.3s all;
-  border: 1px solid blue;
+  // border: 1px solid blue;
 }
 
 #navbar .nav-link {
@@ -43,7 +55,11 @@
 }
 
 .nav1 {
-  margin-left: 8.5rem;
+  // margin-left: 8.5rem;
+  // border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .dropdown {
@@ -58,7 +74,7 @@
   color: #ffffff;
   padding: 1.3rem 3.4rem;
   margin-left: 4rem;
-  position: relative;
-  top: -1.5rem;
+  // position: relative;
+  // top: -1.5rem;
   transition: 0.5s;
 }
