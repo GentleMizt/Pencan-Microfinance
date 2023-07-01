@@ -40,16 +40,12 @@
 
 .get-div {
   display: flex;
-  gap: 1rem;
+  gap: 1.2rem;
   margin-top: 4rem;
 }
 
 .get-img {
   margin-right: 1.5rem;
-}
-
-.r-img{
-
 }
 
 .get-img img {
@@ -59,18 +55,18 @@
 .get1,
 .get2,
 .get3 {
-  flex-basis: 30%;
+  flex-basis: 28%;
 }
 
 .get1,
 .get2 {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   background: #000000;
   color: #fff;
   border-radius: 1rem;
-  // padding: 1.02rem 1.5rem 0.9rem 1.5rem;
+  padding: 1.02rem 1.5rem 0.9rem 1.5rem;
 }
 
 .get3 {
