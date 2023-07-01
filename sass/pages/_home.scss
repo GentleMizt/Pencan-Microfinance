@@ -101,7 +101,7 @@
 
     &-left{
       border: 1px solid blue;
-      flex-basis: 30%;
+      flex-basis: 40%;
 
       & p{
         color: #000;
@@ -111,19 +111,14 @@
       }
     }
 
-    &-right{
-      flex-basis: 50%;
-
-      .testimonial__flex--img{
-        position: relative;
-        border: 1px solid black;
-
-        img{
-          position: absolute;
-        }
-        
-      }
+    &-middle{
+      // flex-basis: 20%;
     }
+
+    &-right{
+      
+    }
+
   
   }
 
