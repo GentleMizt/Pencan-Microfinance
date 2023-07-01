@@ -96,12 +96,14 @@
   height: 65rem;
 
   .testimonial__flex{
-    border: 1px solid red;
     @include dflexcomp;
+    // gap: 30rem;
+    // position: relative;
 
     &-left{
       border: 1px solid blue;
-      flex-basis: 40%;
+      flex-basis: 30%;
+      // margin-right: 20rem;
 
       & p{
         color: #000;
@@ -111,12 +113,27 @@
       }
     }
 
-    &-middle{
-      // flex-basis: 20%;
-    }
-
     &-right{
-      
+      flex-basis: 50%;
+
+      .testimonial__flex--img{
+        border: 5px solid $color-grey-pry;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        height: 31rem;
+        width: 80%;
+        position: relative;
+        left: -5rem;
+
+        img{
+          position: absolute;
+          top: 2rem;
+          left: 5rem;
+          width: 100%;
+        }
+        
+      }
+
     }
 
   
