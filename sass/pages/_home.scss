@@ -35,25 +35,7 @@
       margin: 2.4rem 0;
     }
 
-    #g-now {
-      background-color: $color-pry;
-      text-align: center;
-      padding: 1.5rem 3.4rem;
-      color: $color-white;
-      width: 55%;
-      min-width: 15.5rem;
-      border-radius: 1rem;
-      font-family: 'Inter', sans-serif;
-      font-weight: 500;
-      font-size: 1.6rem;
-      transition: 0.7s;
-
-      &:hover {
-        transform: scale(0.9);
-        background-color: $color-sec;
-        color: $color-ter;
-      }
-    }
+    @include g-now;
   }
 }
 
@@ -152,6 +134,8 @@
           line-height: 2rem;
           font-weight: 400;
         }
+
+        @include g-now2;
       }
     }
 

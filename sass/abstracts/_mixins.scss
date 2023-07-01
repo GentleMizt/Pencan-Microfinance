@@ -18,12 +18,54 @@
 
 @mixin grid-child{
   display: flex;
-  // width: 277px;
-  // height: 273px;
   padding: 3rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
   flex-shrink: 0;
+}
+
+@mixin g-now{
+  #g-now {
+    background-color: $color-pry;
+    text-align: center;
+    padding: 1.5rem 3.4rem;
+    color: $color-white;
+    width: 55%;
+    min-width: 15.5rem;
+    border-radius: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    transition: 0.7s;
+
+    &:hover {
+      transform: scale(0.9);
+      background-color: $color-sec;
+      color: $color-ter;
+    }
+  }
+}
+
+@mixin g-now2{
+  #g-now {
+    background-color: $color-pry;
+    text-align: center;
+    padding: 1rem 2.9rem;
+    color: $color-white;
+    width: 25%;
+    min-width: 15.5rem;
+    border-radius: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    transition: 0.7s;
+
+    &:hover {
+      transform: scale(0.9);
+      background-color: $color-sec;
+      color: $color-ter;
+    }
+  }
 }
