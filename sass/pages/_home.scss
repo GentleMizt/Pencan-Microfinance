@@ -1,4 +1,7 @@
 // MAIN-CNT1
+.main-cnt1{
+  background-color: $color-blue-sec;
+}
 #main-flex {
   display: flex;
   gap: 2rem;
@@ -19,6 +22,8 @@
       font-size: 4.8rem;
       margin-bottom: 2rem;
       font-family: 'Inter', sans-serif;
+      color: $color-black;
+      line-height: 5rem;
     }
 
     #main1-row2s {
@@ -32,6 +37,10 @@
 
     .inter-p {
       font-family: 'Inter', sans-serif;
+      color: $color-black;
+      font-size: 1.4rem;
+      line-height: 2.5rem;
+      font-weight: 400;
     }
 
     #v-more {
@@ -58,7 +67,7 @@
 }
 
 .first {
-  background: url(../dist/Cimg/flex-bg.png);
+  // background: url(../dist/Cimg/flex-bg.png);
   background-repeat: no-repeat;
   color: #fff;
 }
