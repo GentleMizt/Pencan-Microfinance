@@ -3,7 +3,7 @@ AOS.init();
 console.log('hello About Us');
 
 const menuBar = document.querySelector('.fa-bars');
-
+const navMenu = document.querySelector('#navbar')
 
 
 
