@@ -93,13 +93,11 @@
 //MAIN3
 .main3 {
   padding-top: 10rem;
-  height: 65rem;
 
   .testimonial__flex {
     @include dflexcomp;
 
     &-left {
-      border: 1px solid blue;
       flex-basis: 30%;
 
       & p {
