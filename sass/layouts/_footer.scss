@@ -25,6 +25,12 @@ footer a {
   font-size: 1.4rem;
   line-height: 2.0rem;
   font-weight: 450;
+  transition: all .3s;
+
+  &:hover{
+    text-decoration: none;
+    color: $color-pry;
+  }
 }
 
 footer h4 {
