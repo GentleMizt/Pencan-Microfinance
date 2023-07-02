@@ -108,6 +108,12 @@
 
 #navbar2{
   position: static;
+  // display: none;
+
+  // @include respond-768px{
+  //   display: block;
+  // }
+
   .nav-container2{
     margin-top: 6rem;
     display: flex;
@@ -115,6 +121,10 @@
     justify-content: center;
     align-items: center;
     gap: 3rem;
+  }
+
+  .logo2{
+    width: 100%;
   }
 
 }

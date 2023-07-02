@@ -20,7 +20,8 @@ if (loader === true) {
 }
 
 menuBar.addEventListener('click', (e)=>{
-  menuBar.classList.toggle('fa-times')
+  menuBar.classList.toggle('fa-times');
+  navMenu2.classList.toggle('nav-active');
 })
 
 // let bannerImages = ['./dist/Cimg/banner1.png', './dist/Cimg/scnd-main-img.png'];
