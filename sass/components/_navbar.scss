@@ -37,7 +37,7 @@
 
   .fa-bars{
     z-index: 1;
-    font-size: 3.5rem;
+    font-size: 3rem;
     display: none;
   
     @include respond-768px{
@@ -117,9 +117,9 @@
 
 #navbar2{
   position: static;
+  transition: all 0.5s;
 
   .nav-container2{
-    // margin-top: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
