@@ -17,10 +17,14 @@
   }
 
   #main1-row2 {
-    border-radius: 2rem;
     width: 67.1rem;
-    padding-left: 6rem;
-    padding: 11.7rem 7rem 11.7rem 6rem;
+    padding: 6rem 0;
+
+    @include respond-768px{
+      border: 1px solid red;
+      width: 100%;
+      // padding: 0;
+    }
 
     #main1-row2h {
       font-weight: 600;
