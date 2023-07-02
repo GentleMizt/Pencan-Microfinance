@@ -39,7 +39,8 @@
   
       
       @include respond-450px{
-        width: 76%;
+        // width: 76%;
+        width: 100%;
       }
     }
   }
@@ -50,8 +51,9 @@
     padding: 6rem 0;
 
     @include respond-768px{
-      // border: 1px solid red;
+      border: 1px solid red;
       width: 100%;
+      flex-basis: 50%;
     }
 
     #main1-row2h {
@@ -68,8 +70,8 @@
       }
 
       @include respond-450px{
-        font-size: 2.2rem;
-        line-height: 2.9rem;
+        font-size: 1.8rem;
+        line-height: 1.9rem;
 
       }
     }
@@ -81,10 +83,11 @@
       line-height: 2.5rem;
       font-weight: 400;
       margin: 2.4rem 0;
+      border: 1px solid black;
       
       @include respond-450px{
-        font-size: 1.3rem;
-        line-height: 2.3rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
         margin: 1.1rem 0;
       }
     }
