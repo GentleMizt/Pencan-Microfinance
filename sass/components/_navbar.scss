@@ -24,20 +24,32 @@
   display: none;
 }
 
-.fa-bars{
-  position: absolute;
-  top: 3rem;
-  right: 10rem;
-  z-index: 1;
-  font-size: 2.5rem;
-  display: none;
+.hamburger__dropdown{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid red;
 
-  @include respond-768px{
-    display: block;
-    position: absolute;
-    right: 8rem;
-    top: 4rem;
-    z-index: 10;
+  img{
+    width: 25%;
+  }
+
+  .fa-bars{
+    // position: absolute;
+    // top: 3rem;
+    // right: 10rem;
+    z-index: 1;
+    font-size: 2.5rem;
+    // display: none;
+  
+    @include respond-768px{
+      display: block;
+      // position: absolute;
+      // right: 8rem;
+      // top: 4rem;
+      z-index: 10;
+    }
   }
 }
 
