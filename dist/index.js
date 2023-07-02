@@ -3,8 +3,9 @@ AOS.init();
 console.log('hello About Us');
 
 const menuBar = document.querySelector('.fa-bars');
-const navMenu = document.querySelector('#navbar')
-const navMenu2 = document.querySelector('#navbar2')
+const navMenu = document.querySelector('#navbar');
+const navMenu2 = document.querySelector('#navbar2');
+const hamImg = document.querySelector('#hamburger-img');
 
 
 
