@@ -7,15 +7,39 @@
 #main-flex {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 10rem;
 
-  @include respond-768px{
-    gap: 1rem;
+  @include respond-450px{
+    gap: 4rem;
   }
 
-  #main1-row1 img {
-    width: 85%;
+  #main1-row1{
+    border: 1px solid red;
+    width: 40%;
+
+    @include respond-992px{
+      width: 70%;
+    }
+
+    @include respond-768px{
+      width: 95%;
+    }
+
+    @include respond-450px{
+      width: 100%;
+    }
+
+    & img {
+      width: 100%;
+      flex-basis: 40%;
+  
+      
+      @include respond-450px{
+        width: 76%;
+      }
+    }
   }
+
 
   #main1-row2 {
     width: 67.1rem;
@@ -24,7 +48,6 @@
     @include respond-768px{
       // border: 1px solid red;
       width: 100%;
-      // padding: 0;
     }
 
     #main1-row2h {
@@ -33,6 +56,17 @@
       font-family: 'Inter', sans-serif;
       color: $color-black;
       line-height: 5rem;
+
+      @include respond-540px{
+        font-size: 3.5rem;
+        line-height: 3.4rem;
+      }
+
+      @include respond-450px{
+        font-size: 2.7rem;
+        line-height: 3rem;
+
+      }
     }
 
     .inter-p {
@@ -42,6 +76,12 @@
       line-height: 2.5rem;
       font-weight: 400;
       margin: 2.4rem 0;
+      
+      @include respond-450px{
+        font-size: 1.3rem;
+        line-height: 2.3rem;
+
+      }
     }
 
     @include g-now;
