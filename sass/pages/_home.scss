@@ -1,5 +1,6 @@
 // MAIN-CNT1
 .main-cnt1 {
+  width: 100%;
   background-color: $color-blue-sec;
 }
 
@@ -21,7 +22,7 @@
     padding: 6rem 0;
 
     @include respond-768px{
-      border: 1px solid red;
+      // border: 1px solid red;
       width: 100%;
       // padding: 0;
     }

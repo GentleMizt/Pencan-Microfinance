@@ -40,6 +40,10 @@
     font-size: 1.6rem;
     transition: 0.7s;
 
+    @include respond-768px{
+      width: 70%;
+    }
+
     &:hover {
       transform: scale(0.9);
       background-color: $color-sec;
