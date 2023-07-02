@@ -8,6 +8,10 @@
   align-items: center;
   gap: 2rem;
 
+  @include respond-768px{
+    gap: 1rem;
+  }
+
   #main1-row1 img {
     width: 85%;
   }
