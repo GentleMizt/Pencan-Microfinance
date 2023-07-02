@@ -18,7 +18,7 @@
   }
 
   #main1-row1{
-    border: 1px solid red;
+    // border: 1px solid red;
     width: 40%;
 
     @include respond-992px{
@@ -51,7 +51,7 @@
     padding: 6rem 0;
 
     @include respond-768px{
-      border: 1px solid red;
+      // border: 1px solid red;
       width: 100%;
       flex-basis: 50%;
     }
@@ -62,7 +62,7 @@
       font-family: 'Inter', sans-serif;
       color: $color-black;
       line-height: 5rem;
-      border: 1px solid blue;
+      // border: 1px solid blue;
 
       @include respond-540px{
         font-size: 3.5rem;
@@ -72,7 +72,6 @@
       @include respond-450px{
         font-size: 1.8rem;
         line-height: 1.9rem;
-
       }
     }
 
@@ -83,7 +82,7 @@
       line-height: 2.5rem;
       font-weight: 400;
       margin: 2.4rem 0;
-      border: 1px solid black;
+      // border: 1px solid black;
       
       @include respond-450px{
         font-size: 1rem;
