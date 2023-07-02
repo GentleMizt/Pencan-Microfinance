@@ -24,19 +24,6 @@
   display: none;
 }
 
-#navbar2{
-  position: static;
-  .nav-container2{
-    margin-top: 6rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid blue;
-  }
-
-}
-
 .fa-bars{
   position: absolute;
   top: 3rem;
@@ -117,4 +104,28 @@
   color: #ffffff;
   padding: 1.3rem 3.4rem;
   transition: 0.5s;
+}
+
+#navbar2{
+  position: static;
+  .nav-container2{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+}
+
+.nav2{
+
+  .links2{
+    font-size: 1.8rem;
+
+    &:not(:last-child){
+      margin-bottom: 1rem;
+    }
+  }
 }
