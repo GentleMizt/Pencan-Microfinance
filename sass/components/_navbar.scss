@@ -46,7 +46,6 @@
   display: inline-block;
 
   @include respond(tab-land){
-    border: 1px solid red;
     flex-basis: 10%;
   }
 }
@@ -55,13 +54,11 @@
   flex-basis: 40%;
 
   @include respond(tab-land){
-    border: 1px solid red;
     flex-basis: 35%;
   }
 
   @include respond-992px{
     flex-basis: 40%;
-    border: 1px solid blue;
   }
 }
 
