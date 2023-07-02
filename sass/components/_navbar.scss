@@ -47,6 +47,12 @@
   }
 }
 
+// visibility for hamburger-img
+.ham-visible{
+  visibility: hidden;
+  opacity: 0;
+}
+
 .navbar-brand{
   flex-basis: 15%;
   display: inline-block;
@@ -111,14 +117,9 @@
 
 #navbar2{
   position: static;
-  // display: none;
-
-  // @include respond-768px{
-  //   display: block;
-  // }
 
   .nav-container2{
-    margin-top: 6rem;
+    // margin-top: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
