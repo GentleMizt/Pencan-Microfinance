@@ -41,7 +41,11 @@
     transition: 0.7s;
 
     @include respond-768px{
-      width: 70%;
+      width: 100%;
+    }
+
+    @include respond-450px(){
+      font-size: 1.4rem;
     }
 
     &:hover {
@@ -88,13 +92,13 @@
 //   @media (max-width: 648px) { @content };
 // }
 
-// @mixin respond-500px {
-//   @media (max-width: 500px) { @content };
-// }
+@mixin respond-540px {
+  @media (max-width: 540px) { @content };
+}
 
-// @mixin respond-400px {
-//   @media (max-width: 400px) { @content };
-// }
+@mixin respond-450px {
+  @media (max-width: 450px) { @content };
+}
 
 @mixin respond($breakpoint){
   @if $breakpoint == phone{
