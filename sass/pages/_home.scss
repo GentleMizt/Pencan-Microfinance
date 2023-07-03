@@ -150,11 +150,20 @@
     &-left {
       flex-basis: 30%;
 
+      @include respond-992px{
+        flex-basis: 42%;
+      }
+
       & p {
         color: #000;
         font-size: 4rem;
         font-weight: 600;
         line-height: 5rem;
+
+        @include respond-992px{
+          font-size: 3rem;
+          line-height: 3.5rem;
+        }
       }
     }
 
@@ -172,7 +181,6 @@
         left: -5rem;
 
         @include respond-992px{
-          border: 1px solid red;
           height: 25rem;
         }
 
