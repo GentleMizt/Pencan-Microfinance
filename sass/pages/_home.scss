@@ -47,7 +47,6 @@
   #main1-row2 {
     width: 67.1rem;
     padding: 6rem 0;
-    border: 1px solid black;
 
     @include respond-768px{
       width: 100%;
@@ -61,14 +60,13 @@
       color: $color-black;
       line-height: 5rem;
 
-      // @include respond-767px{
-      //   border: 1px solid red;
-      //   font-size: 2rem;
-      //   line-height: 2.6rem;
-      // }
+      @include respond-600px{
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+      }
 
       @include respond-540px{
-        font-size: 3rem;
+        font-size: 2rem;
         line-height: 2.6rem;
       }
 

@@ -88,9 +88,9 @@
   @media (max-width: 768px) { @content };
 }
 
-// @mixin respond-648px {
-//   @media (max-width: 648px) { @content };
-// }
+@mixin respond-600px {
+  @media (max-width: 600px) { @content };
+}
 
 @mixin respond-540px {
   @media (max-width: 540px) { @content };
