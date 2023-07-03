@@ -663,6 +663,10 @@ footer p {
             .main3 .signup__container--flex--right p {
               font-size: 1.4rem;
               line-height: 1.7rem; } }
+          @media (max-width: 600px) {
+            .main3 .signup__container--flex--right p {
+              font-size: 1.1rem;
+              line-height: 1.5rem; } }
         .main3 .signup__container--flex--right #g-now {
           background-color: #1c9ff3;
           text-align: center;

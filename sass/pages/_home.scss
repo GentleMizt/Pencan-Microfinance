@@ -273,6 +273,11 @@
             font-size: 1.4rem;
             line-height: 1.7rem;
           }
+
+          @include respond-600px{
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+          }
         }
 
         @include g-now2;
