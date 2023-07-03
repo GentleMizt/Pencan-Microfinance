@@ -173,7 +173,6 @@
 
         img {
           position: absolute;
-          // position: relative;
           top: 2rem;
           left: 5rem;
           width: 100%;
@@ -184,16 +183,33 @@
         position: absolute;
         left: 40.5rem;
         bottom: 3rem;
+
+        @include respond(tab-land){
+          border: 1px solid blue ;
+          bottom: 5rem;
+          left: 37.5rem;
+        }
       }
+
       .white-icon {
         position: absolute;
         bottom: 3rem;
         left: 36.5rem;
+        left: 32rem;
+
+        @include respond(tab-land){
+          border: 1px solid green;
+          bottom: 5rem;
+        }
       }
       .play-icon {
         position: absolute;
         bottom: 13rem;
         left: 21rem;
+
+        @include respond(tab-land){
+          border: 1px solid red ;
+        }
       }
     }
   }
