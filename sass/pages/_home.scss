@@ -171,6 +171,11 @@
         position: relative;
         left: -5rem;
 
+        @include respond-992px{
+          border: 1px solid red;
+          height: 25rem;
+        }
+
         img {
           position: absolute;
           top: 2rem;
