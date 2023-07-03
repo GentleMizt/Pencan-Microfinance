@@ -134,8 +134,7 @@
   width: 35%;
   margin-top: 6.4rem;
 
-  @include respond-768px{
-    border: 1px solid red;
+  @include respond-768px {
     width: 65%;
     font-size: 3.5rem;
   }
