@@ -348,7 +348,6 @@
 
     @include respond-768px{
       flex-basis: 40%;
-      border: 1px solid red;
     }
 
     &:hover {
@@ -360,6 +359,11 @@
     & h3 {
       font-weight: 500;
       font-size: 1.4rem;
+
+      @include respond-600px{
+        border: 1px solid red;
+        font-size: 1.1rem;
+      }
     }
   }
 }
