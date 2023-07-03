@@ -5,6 +5,10 @@
 
 #footer {
   @include dflexhalf;
+
+  @include respond-768px{
+    flex-direction: column;
+  }
 }
 
 footer li {
