@@ -288,11 +288,13 @@
           }
         }
 
-        @include g-now2;
+        @include g-now2;       
+      }
 
+      &--plant{
         img{
           @include respond-450px{
-            border: 1px solid red;
+            display: none;
           }
         }
       }
