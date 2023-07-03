@@ -239,19 +239,19 @@
         line-height: 3rem;
         flex-basis: 30%;
 
-        @include respond-992px{
+        @include respond-992px {
           flex-basis: 45%;
           font-size: 1.8rem;
           line-height: 2.6rem;
         }
 
-        @include respond-768px{
+        @include respond-768px {
           flex-basis: 50%;
           font-size: 1.5rem;
           line-height: 2rem;
         }
 
-        @include respond-540px{
+        @include respond-540px {
           min-width: 15.8rem;
           flex-basis: 60%;
           font-size: 1.2rem;
@@ -266,11 +266,11 @@
         gap: 2rem;
         flex-direction: column;
 
-        @include respond-992px{
+        @include respond-992px {
           gap: 1rem;
         }
 
-        @include respond-450px{
+        @include respond-450px {
           margin-left: 5rem;
         }
 
@@ -280,23 +280,23 @@
           font-weight: 400;
           width: 100%;
 
-          @include respond-992px{
+          @include respond-992px {
             font-size: 1.4rem;
             line-height: 1.7rem;
           }
 
-          @include respond-600px{
+          @include respond-600px {
             font-size: 1.1rem;
             line-height: 1.5rem;
           }
         }
 
-        @include g-now2;       
+        @include g-now2;
       }
 
-      &--plant{
-        img{
-          @include respond-450px{
+      &--plant {
+        img {
+          @include respond-450px {
             display: none;
           }
         }
@@ -316,7 +316,7 @@
   @include dflexhalf;
   width: 100%;
 
-  @include respond-540px{
+  @include respond-540px {
     flex-direction: column;
     gap: 1.5rem;
   }
@@ -327,24 +327,24 @@
     gap: 2.4rem;
     flex-basis: 50%;
 
-    @include respond-600px{
+    @include respond-600px {
       gap: 1.2rem;
     }
 
-    @include respond-540px{
+    @include respond-540px {
       justify-content: space-between;
-    }    
+    }
 
     & h3 {
       font-weight: 400;
       font-size: 2.4rem;
 
-      @include respond-768px{
+      @include respond-768px {
         font-size: 2rem;
       }
 
-      @include respond-600px{
-       font-size: 1.6rem;
+      @include respond-600px {
+        font-size: 1.6rem;
       }
     }
 
@@ -352,11 +352,11 @@
       display: flex;
       gap: 1.78rem;
 
-      @include respond-600px{
-        gap: .9rem;
+      @include respond-600px {
+        gap: 0.9rem;
       }
 
-      @include respond-540px{
+      @include respond-540px {
         gap: 2.5rem;
       }
     }
@@ -371,7 +371,7 @@
     border-radius: 1rem;
     transition: 0.5s;
 
-    @include respond-768px{
+    @include respond-768px {
       flex-basis: 40%;
     }
 
