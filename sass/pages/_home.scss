@@ -328,7 +328,6 @@
     flex-basis: 50%;
 
     @include respond-600px{
-      border: 1px solid red;
       gap: 1.2rem;
     }
 

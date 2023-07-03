@@ -724,7 +724,6 @@ footer p {
     flex-basis: 50%; }
     @media (max-width: 600px) {
       #main4 .main4l {
-        border: 1px solid red;
         gap: 1.2rem; } }
     @media (max-width: 540px) {
       #main4 .main4l {
