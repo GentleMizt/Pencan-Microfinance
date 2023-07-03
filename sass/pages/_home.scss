@@ -316,11 +316,21 @@
   @include dflexhalf;
   width: 100%;
 
+  @include respond-540px{
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
   .main4l {
     display: flex;
     align-items: center;
     gap: 2.4rem;
     flex-basis: 50%;
+
+    @include respond-600px{
+      border: 1px solid red;
+      gap: 1.2rem;
+    }
 
     & h3 {
       font-weight: 400;
@@ -328,6 +338,10 @@
 
       @include respond-768px{
         font-size: 2rem;
+      }
+
+      @include respond-600px{
+       font-size: 1.6rem;
       }
     }
 
