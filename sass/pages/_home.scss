@@ -3,7 +3,7 @@
   width: 100%;
   background-color: $color-blue-sec;
 
-  @include respond-540px{
+  @include respond-540px {
     padding: 0 2rem;
   }
 }
@@ -13,42 +13,40 @@
   align-items: center;
   gap: 10rem;
 
-  @include respond-450px{
+  @include respond-450px {
     gap: 3rem;
   }
 
-  #main1-row1{
+  #main1-row1 {
     width: 40%;
 
-    @include respond-992px{
+    @include respond-992px {
       width: 70%;
     }
 
-    @include respond-768px{
+    @include respond-768px {
       width: 95%;
     }
 
-    @include respond-450px{
+    @include respond-450px {
       width: 120%;
     }
 
     & img {
       width: 100%;
       flex-basis: 40%;
-  
-      
-      @include respond-450px{
+
+      @include respond-450px {
         width: 100%;
       }
     }
   }
 
-
   #main1-row2 {
     width: 67.1rem;
     padding: 6rem 0;
 
-    @include respond-768px{
+    @include respond-768px {
       width: 100%;
       flex-basis: 50%;
     }
@@ -60,17 +58,17 @@
       color: $color-black;
       line-height: 5rem;
 
-      @include respond-600px{
+      @include respond-600px {
         font-size: 2.2rem;
         line-height: 2.6rem;
       }
 
-      @include respond-540px{
+      @include respond-540px {
         font-size: 2rem;
         line-height: 2.6rem;
       }
 
-      @include respond-450px{
+      @include respond-450px {
         font-size: 1.8rem;
         line-height: 1.9rem;
       }
@@ -83,8 +81,8 @@
       line-height: 2.5rem;
       font-weight: 400;
       margin: 2.4rem 0;
-      
-      @include respond-450px{
+
+      @include respond-450px {
         font-size: 1rem;
         line-height: 1.5rem;
         margin: 1.1rem 0;
@@ -99,7 +97,7 @@
 .main-cnt2 {
   margin-top: 5.1rem;
   background-color: $color-grey-pry;
-  @include respond-540px{
+  @include respond-540px {
     padding: 0 2rem;
   }
 }
@@ -108,7 +106,7 @@
 .main-cnt3 {
   margin-top: 5.1rem;
   background-color: $color-blue-sec;
-  @include respond-540px{
+  @include respond-540px {
     padding: 0 2rem;
   }
 }
@@ -116,7 +114,7 @@
 // MAIN CNT-4
 .main-cnt4 {
   margin-top: 5.1rem;
-  @include respond-540px{
+  @include respond-540px {
     padding: 0 2rem;
   }
 }
@@ -159,7 +157,6 @@
       flex-basis: 50%;
       position: relative;
 
-
       .testimonial__flex--img {
         border: 5px solid $color-grey-pry;
         border-top-left-radius: 1rem;
@@ -178,18 +175,17 @@
         }
       }
 
-      .blue-icon{
+      .blue-icon {
         position: absolute;
         left: 40.5rem;
         bottom: 3rem;
       }
-      .white-icon{
+      .white-icon {
         position: absolute;
         bottom: 3rem;
         left: 36.5rem;
-
       }
-      .play-icon{
+      .play-icon {
         position: absolute;
         bottom: 13rem;
         left: 21rem;
@@ -197,28 +193,28 @@
     }
   }
 
-  .signup__container{
+  .signup__container {
     margin-top: 10rem;
     width: 90%;
     margin: auto;
 
-    &--flex{
+    &--flex {
       @include dflexcomp;
-      
-      &--left{
+
+      &--left {
         font-size: 2rem;
         font-weight: 500;
         line-height: 3rem;
         flex-basis: 30%;
       }
 
-      &--right{
+      &--right {
         flex-basis: 60%;
         display: flex;
         gap: 2rem;
         flex-direction: column;
 
-        & p{
+        & p {
           font-size: 1.6rem;
           line-height: 2rem;
           font-weight: 400;
@@ -228,9 +224,6 @@
         @include g-now2;
       }
     }
-
-
-
   }
 }
 
