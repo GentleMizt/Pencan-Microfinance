@@ -615,7 +615,8 @@ footer p {
             height: 20rem; } }
         @media (max-width: 450px) {
           .main3 .testimonial__flex-right .testimonial__flex--img {
-            height: 17rem; } }
+            height: 17rem;
+            left: -3rem; } }
         .main3 .testimonial__flex-right .testimonial__flex--img img {
           position: absolute;
           top: 2rem;
