@@ -183,15 +183,6 @@
           width: 100%;
         }
       }
-      .play-icon {
-        position: absolute;
-        bottom: 13rem;
-        left: 21rem;
-
-        @include respond(tab-land){
-          border: 1px solid red ;
-        }
-      }
     }
   }
 
