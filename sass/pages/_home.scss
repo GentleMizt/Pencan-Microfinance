@@ -334,6 +334,11 @@
     &--socials {
       display: flex;
       gap: 1.78rem;
+
+      @include respond-600px{
+        border: 1px solid red;
+        gap: .9rem;
+      }
     }
   }
 
@@ -360,9 +365,9 @@
       font-weight: 500;
       font-size: 1.4rem;
 
-      @include respond-600px{
-        font-size: 1.1rem;
-      }
+      // @include respond-600px{
+      //   font-size: 1.1rem;
+      // }
     }
   }
 }
