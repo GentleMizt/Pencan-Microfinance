@@ -150,15 +150,15 @@
     &-left {
       flex-basis: 30%;
 
-      @include respond-992px{
+      @include respond-992px {
         flex-basis: 42%;
       }
 
-      @include respond-540px{
+      @include respond-540px {
         flex-basis: 30%;
       }
 
-      @include respond-450px{
+      @include respond-450px {
         flex-basis: 40%;
       }
 
@@ -168,21 +168,20 @@
         font-weight: 600;
         line-height: 5rem;
 
-        @include respond-992px{
+        @include respond-992px {
           font-size: 3rem;
           line-height: 3.5rem;
         }
 
-        @include respond-992px{
+        @include respond-992px {
           font-size: 3rem;
           line-height: 3.5rem;
         }
 
-        @include respond-540px{
+        @include respond-540px {
           font-size: 2rem;
           line-height: 2rem;
         }
-
       }
     }
 
@@ -199,19 +198,19 @@
         position: relative;
         left: -5rem;
 
-        @include respond-992px{
+        @include respond-992px {
           height: 25rem;
         }
 
-        @include respond-768px{
+        @include respond-768px {
           height: 21.5rem;
         }
 
-        @include respond-540px{
+        @include respond-540px {
           height: 20rem;
         }
 
-        @include respond-450px{
+        @include respond-450px {
           height: 17rem;
           left: -3rem;
         }
