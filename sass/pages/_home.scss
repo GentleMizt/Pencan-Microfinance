@@ -60,13 +60,12 @@
       font-family: 'Inter', sans-serif;
       color: $color-black;
       line-height: 5rem;
-      // border: 1px solid red;
 
-      @include respond-767px{
-        border: 1px solid red;
-        font-size: 2rem;
-        line-height: 2.6rem;
-      }
+      // @include respond-767px{
+      //   border: 1px solid red;
+      //   font-size: 2rem;
+      //   line-height: 2.6rem;
+      // }
 
       @include respond-540px{
         font-size: 3rem;
