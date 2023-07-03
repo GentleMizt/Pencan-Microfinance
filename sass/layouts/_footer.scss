@@ -9,7 +9,6 @@
   @include respond-768px{
     flex-direction: column;
     gap: 3.4rem;
-    border: 1px solid red;
   }
 }
 
@@ -64,6 +63,12 @@ footer p {
 .footer__about-flex{
   margin-top: 4.8rem;
   @include dflexcomp;
+
+  @include respond-540px{
+    flex-direction: column-reverse;
+    border: 1px solid red;
+    gap: 3.5rem;
+  }
   
   p{
     font-size: 1.2rem;
