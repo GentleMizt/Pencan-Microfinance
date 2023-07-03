@@ -133,6 +133,11 @@
   line-height: 5rem;
   width: 35%;
   margin-top: 6.4rem;
+
+  @include respond-768px{
+    border: 1px solid red;
+    width: 65%;
+  }
 }
 
 //MAIN3
