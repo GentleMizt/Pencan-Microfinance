@@ -184,6 +184,11 @@
           height: 25rem;
         }
 
+        @include respond-768px{
+          border: 1px solid red;
+          height: 20rem;
+        }
+
         img {
           position: absolute;
           top: 2rem;
