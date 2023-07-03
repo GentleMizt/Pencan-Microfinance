@@ -11,8 +11,7 @@
 
   @include respond-768px {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(7, 1fr);
-
+    grid-template-rows: repeat(6, 1fr);
     gap: 1rem;
   }
 
