@@ -244,6 +244,12 @@
           font-size: 1.8rem;
           line-height: 2.6rem;
         }
+
+        @include respond-768px{
+          flex-basis: 50%;
+          font-size: 1.5rem;
+          line-height: 2rem;
+        }
       }
 
       &--right {

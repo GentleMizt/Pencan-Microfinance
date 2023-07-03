@@ -62,7 +62,7 @@
     text-align: center;
     padding: 1rem 2.9rem;
     color: $color-white;
-    width: 40%;
+    width: 50%;
     min-width: 15.5rem;
     border-radius: 1rem;
     font-family: 'Inter', sans-serif;
@@ -72,10 +72,11 @@
 
     @include respond-992px{
       width: 85%;
+      font-size: 1.4rem;
     }
 
-    @include respond-540px{
-      font-size: 1.2rem;
+    @include respond-600px{
+      font-size: 1.1rem;
     }
 
     &:hover {
