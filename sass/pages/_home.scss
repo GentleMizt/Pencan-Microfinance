@@ -184,18 +184,6 @@
         }
       }
 
-      .blue-icon {
-        position: absolute;
-        left: 40.5rem;
-        bottom: 3rem;
-
-        @include respond(tab-land){
-          border: 1px solid blue ;
-          bottom: 5rem;
-          left: 37.5rem;
-        }
-      }
-
       .white-icon {
         position: absolute;
         bottom: 3rem;
