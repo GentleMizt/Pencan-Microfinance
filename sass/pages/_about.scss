@@ -1,22 +1,18 @@
 .story__content{
+  margin-top: 2.4rem;
   width: 100%;
   background-color: $color-blue-sec;
 
   &--flex{
     @include dflexcomp;
 
-    &--left{
-      border: 1px solid red;
-
-      img{
-        width: 100%;
-      }
-    }
+    // &--left{
+    // }
 
     &--right{
       background-color: $color-blue-sec;
       border: 1px solid black;
-      width: 76%;
+      width: 81%;
 
       &--text{
         display: flex;
@@ -25,19 +21,21 @@
         border: 1px solid blue;
         width: 75%;
         margin: auto;
+
+        h2{
+          font-size: 3.6rem;
+          font-weight: 600;
+          line-height: 4.0rem;
+        }
+  
+        P{
+          font-size: 1.4rem;
+          font-weight: 400;
+          line-height: 2.5rem;
+        }
       }
 
-      h2{
-        font-size: 3.6rem;
-        font-weight: 600;
-        line-height: 4.0rem;
-      }
-
-      P{
-        font-size: 1.4rem;
-        font-weight: 400;
-        line-height: 2.5rem;
-      }
+   
     }
   }
 }
