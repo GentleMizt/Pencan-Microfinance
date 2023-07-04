@@ -32,6 +32,11 @@
     font-size: 1rem;
     line-height: 1.3rem;
   }
+
+  @include respond-450px{
+    font-size: .87rem;
+    line-height: 1.2rem;
+  }
 }
 
 @mixin auto85{
