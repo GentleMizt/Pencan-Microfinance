@@ -1,16 +1,26 @@
 .story__content{
+  width: 100%;
+  background-color: $color-blue-sec;
 
   &--flex{
-    display: flex;
+    @include dflexcomp;
 
     &--left{
-      flex-basis: 50%;
       border: 1px solid red;
+
+      img{
+        width: 100%;
+      }
     }
 
     &--right{
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
       background-color: $color-blue-sec;
       border: 1px solid black;
+      width: 75%;
+      margin: auto;
     }
   }
 }
