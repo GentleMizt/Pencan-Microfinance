@@ -1,3 +1,22 @@
+.story__content{
+
+  &--flex{
+    display: flex;
+
+    &--left{
+      flex-basis: 50%;
+      border: 1px solid red;
+    }
+
+    &--right{
+      background-color: $color-blue-sec;
+      border: 1px solid black;
+    }
+  }
+}
+
+
+
 //ABT-CONTENT1
 .mcnt-ryt {
   padding-top: 12.2rem;
