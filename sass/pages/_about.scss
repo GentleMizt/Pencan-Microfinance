@@ -6,9 +6,6 @@
   &--flex {
     @include dflexcomp;
 
-    // &--left{
-    // }
-
     &--right {
       background-color: $color-blue-sec;
       width: 81%;
@@ -40,6 +37,12 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+
+    &--left{
+      @include respond-540px{
+        flex-basis: 50%;
+      }
+    }
 
       &--right {
         width: 81%;
