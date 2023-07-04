@@ -11,14 +11,12 @@
 
     &--right{
       background-color: $color-blue-sec;
-      border: 1px solid black;
       width: 81%;
 
       &--text{
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
-        border: 1px solid blue;
         width: 75%;
         margin: auto;
 
