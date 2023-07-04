@@ -6,6 +6,12 @@
   &--flex {
     @include dflexcomp;
 
+    &--left{
+      @include respond-540px{
+        flex-basis: 60%;
+      }
+    }
+
     &--right {
       background-color: $color-blue-sec;
       width: 81%;
@@ -40,7 +46,7 @@
 
     &--left{
       @include respond-540px{
-        flex-basis: 50%;
+        flex-basis: 60%;
       }
     }
 
@@ -75,9 +81,8 @@
     @include dflexcomp;
 
     &--left{
-      img{
-        flex-basis: 65%;
-        width: 140%;
+      @include respond-540px{
+        flex-basis: 60%;
       }
     }
 
