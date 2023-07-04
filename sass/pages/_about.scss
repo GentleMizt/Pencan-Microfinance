@@ -40,6 +40,7 @@
   margin: 10rem 0;
 
   .closer__content {
+    border: 1px solid red;
     &--flex {
     display: flex;
     flex-direction: row-reverse;
@@ -52,8 +53,10 @@
           display: flex;
           flex-direction: column;
           gap: 2.5rem;
-          width: 75%;
+          width: 85%;
           margin: auto;
+          margin-left: 0;
+          border: 1px solid black;
 
           h2 {
             font-size: 3.6rem;
@@ -75,8 +78,17 @@
 .banking__section {
 
   .banking__content {
+
     &--flex {
     @include dflexcomp;
+    border: 1px solid green;
+
+    &--left{
+      img{
+        flex-basis: 65%;
+        width: 140%;
+      }
+    }
 
       &--right {
         width: 81%;
@@ -85,8 +97,10 @@
           display: flex;
           flex-direction: column;
           gap: 2.5rem;
-          width: 75%;
+          border: 1px solid blue;
+          width: 85%;
           margin: auto;
+          margin-right: 0;
 
           h2 {
             font-size: 3.6rem;
