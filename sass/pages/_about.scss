@@ -41,9 +41,7 @@
 
   .banking__content {
     &--flex {
-      display: flex;
-      flex-direction: row-reverse;
-      align-items: center;
+    @include dflexcomp;
 
       &--right {
         width: 81%;
