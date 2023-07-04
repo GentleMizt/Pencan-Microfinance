@@ -4,6 +4,7 @@
 
   &--flex{
     @include dflexcomp;
+    gap: 5rem;
 
     &--left{
       border: 1px solid red;
@@ -19,7 +20,7 @@
       gap: 1.5rem;
       background-color: $color-blue-sec;
       border: 1px solid black;
-      width: 75%;
+      width: 70%;
       margin: auto;
 
       h2{
