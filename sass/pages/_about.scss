@@ -36,8 +36,43 @@
   }
 }
 
-.banking__section {
+.closer__section {
   margin: 10rem 0;
+
+  .closer__content {
+    &--flex {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+      &--right {
+        width: 81%;
+
+        &--text {
+          display: flex;
+          flex-direction: column;
+          gap: 2.5rem;
+          width: 75%;
+          margin: auto;
+
+          h2 {
+            font-size: 3.6rem;
+            font-weight: 600;
+            line-height: 4rem;
+          }
+
+          P {
+            font-size: 1.4rem;
+            font-weight: 400;
+            line-height: 2.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.banking__section {
 
   .banking__content {
     &--flex {
