@@ -4,7 +4,6 @@
 
   &--flex{
     @include dflexcomp;
-    gap: 5rem;
 
     &--left{
       border: 1px solid red;
@@ -15,13 +14,18 @@
     }
 
     &--right{
-      display: flex;
-      flex-direction: column;
-      gap: 1.5rem;
       background-color: $color-blue-sec;
       border: 1px solid black;
-      width: 70%;
-      margin: auto;
+      width: 76%;
+
+      &--text{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        border: 1px solid blue;
+        width: 75%;
+        margin: auto;
+      }
 
       h2{
         font-size: 3.6rem;
