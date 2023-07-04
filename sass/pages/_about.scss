@@ -1,22 +1,29 @@
+.story__section{
+  background-color: $color-blue-sec;
+
 .story__content {
   margin-top: 2.4rem;
   width: 100%;
-  background-color: $color-blue-sec;
 
 
 
   &--flex {
     @include dflexcomp;
+    border: 1px solid red;
 
     &--left{
+      border: 1px solid blue;
+      img{
+        height: 100%;
+      }
       @include respond-540px{
         flex-basis: 60%;
       }
     }
 
     &--right {
-      background-color: $color-blue-sec;
       width: 81%;
+      border: 1px solid black;
 
       &--text {
         display: flex;
@@ -36,6 +43,8 @@
     }
   }
 }
+}
+
 
 .closer__section {
   margin: 10rem 0;
