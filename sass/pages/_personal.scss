@@ -1,0 +1,7 @@
+.money__section{
+    border: 1px solid red;
+
+    &--flex{
+        @include dflexcomp;
+    }
+}
