@@ -3,5 +3,13 @@
 
     &--flex{
         @include dflexcomp;
+
+        &-left{
+            border: 1px solid blue;
+        }
+
+        &-right{
+            border: 1px solid black;
+        }
     }
 }
