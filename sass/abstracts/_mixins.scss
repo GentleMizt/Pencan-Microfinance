@@ -1,60 +1,69 @@
 // MIXINS ON HEADERS AND PARAGRAPH TAGS
 
-@mixin about-h2{
+@mixin about-h2 {
   font-size: 3.6rem;
   font-weight: 600;
   line-height: 4rem;
 
-  @include respond-768px{
+  @include respond-768px {
     font-size: 2.9rem;
     line-height: 2.9rem;
   }
 
-  @include respond-540px{
+  @include respond-540px {
     font-size: 2.4rem;
     line-height: 2.5rem;
   }
 
-  @include respond-375px{
+  @include respond-375px {
     font-size: 2rem;
   }
 }
 
-@mixin about-p{
+@mixin about-p {
   font-size: 1.4rem;
   font-weight: 400;
   line-height: 2.5rem;
 
-  @include respond-768px{
+  @include respond-768px {
     font-size: 1.1rem;
     line-height: 1.9rem;
   }
 
-  @include respond-540px{
+  @include respond-540px {
     font-size: 1rem;
     line-height: 1.3rem;
   }
 
-  @include respond-450px{
-    font-size: .87rem;
+  @include respond-450px {
+    font-size: 0.87rem;
     line-height: 1.2rem;
   }
 }
 
-@mixin money-h2{
+@mixin money-h2 {
   font-size: 4.8rem;
   font-weight: 600;
-  line-height: 5.0rem;
+  line-height: 5rem;
 }
 
-@mixin money-p{
+@mixin money-p {
   font-size: 1.6rem;
   font-weight: 400;
-  line-height: 2.0rem;
+  line-height: 2rem;
 }
 
+@mixin account-p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+
+
 // MIXINS ON LAYOUTING
-@mixin auto85{
+
+@mixin auto85 {
   width: 85%;
   margin: auto;
 }
@@ -77,7 +86,7 @@
   width: 80%;
 }
 
-@mixin grid-child{
+@mixin grid-child {
   display: flex;
   padding: 3rem;
   flex-direction: column;
@@ -87,10 +96,9 @@
   flex-shrink: 0;
 }
 
-
 // MIXINS ON BUTTONS
 
-@mixin g-now{
+@mixin g-now {
   #g-now {
     background-color: $color-pry;
     text-align: center;
@@ -104,11 +112,11 @@
     font-size: 1.6rem;
     transition: 0.7s;
 
-    @include respond-768px{
+    @include respond-768px {
       width: 100%;
     }
 
-    @include respond-450px(){
+    @include respond-450px() {
       font-size: 1rem;
     }
 
@@ -120,7 +128,7 @@
   }
 }
 
-@mixin g-now2{
+@mixin g-now2 {
   #g-now {
     background-color: $color-pry;
     text-align: center;
@@ -134,12 +142,12 @@
     font-size: 1.6rem;
     transition: 0.7s;
 
-    @include respond-992px{
+    @include respond-992px {
       width: 85%;
       font-size: 1.4rem;
     }
 
-    @include respond-600px{
+    @include respond-600px {
       font-size: 1.1rem;
     }
 
@@ -154,49 +162,61 @@
 // MEDIA QUERIES
 
 @mixin respond-992px {
-  @media (max-width: 992px) { @content };
+  @media (max-width: 992px) {
+    @content;
+  }
 }
 
 @mixin respond-768px {
-  @media (max-width: 768px) { @content };
+  @media (max-width: 768px) {
+    @content;
+  }
 }
 
 @mixin respond-600px {
-  @media (max-width: 600px) { @content };
+  @media (max-width: 600px) {
+    @content;
+  }
 }
 
 @mixin respond-540px {
-  @media (max-width: 540px) { @content };
+  @media (max-width: 540px) {
+    @content;
+  }
 }
 
 @mixin respond-450px {
-  @media (max-width: 450px) { @content };
+  @media (max-width: 450px) {
+    @content;
+  }
 }
 
 @mixin respond-375px {
-  @media (max-width: 375px) { @content };
+  @media (max-width: 375px) {
+    @content;
+  }
 }
 
-@mixin respond($breakpoint){
-  @if $breakpoint == phone{
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
     @media only screen and (max-width: 37.5em) {
       // 600px
       @content;
     }
   }
-  @if $breakpoint == tab-port{
+  @if $breakpoint == tab-port {
     @media only screen and (max-width: 56em) {
       // 900px
       @content;
     }
   }
-  @if $breakpoint == tab-land{
+  @if $breakpoint == tab-land {
     @media only screen and (max-width: 75em) {
       // 1200px
       @content;
     }
   }
-  @if $breakpoint == big-desktop{
+  @if $breakpoint == big-desktop {
     @media only screen and (min-width: 112.5em) {
       // 1200px
       @content;
