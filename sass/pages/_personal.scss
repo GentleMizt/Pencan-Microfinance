@@ -15,32 +15,32 @@
       flex-direction: column;
       gap: 1rem;
       flex-basis: 50%;
-    }
-  }
 
-  h2 {
-    @include money-h2;
-  }
-  p {
-    @include money-p;
+      h2 {
+        @include money-h2;
+      }
+      p {
+        @include money-p;
+      }
+    }
   }
 
   @include g-now2;
 }
 
-.account__section{
+.account__section {
+  &--flex {
+    @include dflexcomp;
+    border: 1px solid black;
 
-    &--flex{
-        display: flex;
-        border: 1px solid black;
-
-        &-left{
-            
-        }
-
-        &-right{
-
-        }
+    &-left {
+      border: 1px solid red;
+      flex-basis: 50%;
     }
-    
+
+    &-right {
+      border: 1px solid blue;
+      flex-basis: 50%;
+    }
+  }
 }
