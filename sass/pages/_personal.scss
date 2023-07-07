@@ -6,11 +6,10 @@
 
         &-left{
             border: 1px solid blue;
-            flex-basis: 40%;
 
-            // img{
-            //     w
-            // }
+            img{
+                border: 1px solid red;
+            }
         }
 
         &-right{
