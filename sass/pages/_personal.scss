@@ -38,10 +38,10 @@
       flex-basis: 50%;
 
       h2{
-        
+        @include money-h2;
       }
       p{
-
+        @include account-p;
       }
     }
 
