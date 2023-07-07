@@ -20,10 +20,8 @@
     }
 
     h2{
-        @include about-h2;
     }
     p{
-        @include about-p;
     }
 
     @include g-now2;
