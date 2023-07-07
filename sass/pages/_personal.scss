@@ -16,4 +16,8 @@
             border: 1px solid black;
         }
     }
+
+    h2{
+        @include about-h2;
+    }
 }
