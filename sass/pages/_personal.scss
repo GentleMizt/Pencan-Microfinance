@@ -23,4 +23,6 @@
     p{
         @include about-p;
     }
+
+    @include g-now;
 }
