@@ -63,6 +63,12 @@
 
         &-left{
             border: 1px solid red;
+            h2{
+                @include money-h2;
+              }
+              p{
+                @include account-p;
+              }
         }
 
         &-right{
