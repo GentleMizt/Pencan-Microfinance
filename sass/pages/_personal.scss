@@ -59,7 +59,7 @@
     margin-top: 10rem;
   &--flex {
     border: 1px solid black;
-    display: flex;
+    @include dflexcomp;
 
     flex-direction: row-reverse;
 
