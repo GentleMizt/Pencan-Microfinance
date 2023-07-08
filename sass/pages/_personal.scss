@@ -56,14 +56,16 @@
 }
 
 .branch__section {
+    margin-top: 10rem;
   &--flex {
     border: 1px solid black;
     display: flex;
+
     flex-direction: row-reverse;
 
     &-left {
       border: 1px solid red;
-      flex-basis: 45%;
+    //   flex-basis: 46%;
 
       h2 {
         @include money-h2;
@@ -74,7 +76,7 @@
     }
 
     &-right {
-    //   flex-basis: 55%;
+    //   flex-basis: 40%;
       border: 1px solid blue;
     }
   }
