@@ -65,7 +65,7 @@
 
     &-left {
       border: 1px solid red;
-    //   flex-basis: 46%;
+      flex-basis: 50%;
 
       h2 {
         @include money-h2;
@@ -76,7 +76,7 @@
     }
 
     &-right {
-    //   flex-basis: 40%;
+      flex-basis: 42.4%;
       border: 1px solid blue;
     }
   }
