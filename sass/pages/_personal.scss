@@ -57,6 +57,7 @@
 
 .branch__section {
   &--flex {
+    flex-basis: 50%;
     border: 1px solid black;
     display: flex;
     flex-direction: row-reverse;
@@ -72,6 +73,7 @@
     }
 
     &-right {
+        flex-basis: 50%;  
       border: 1px solid blue;
     }
   }
