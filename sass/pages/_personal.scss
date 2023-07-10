@@ -79,7 +79,17 @@
 .world__section{
     background-color: $color-pry;
     color: $color-white;
+
     .world__container--flex{
         @include dflexcomp;
+
+        &-left{
+            flex-basis: 25%;
+            border: 1px solid red;
+        }
+
+        &-right{
+            flex-basis: 55%;
+        }
     }
 }
