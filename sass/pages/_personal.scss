@@ -75,3 +75,11 @@
     }
   }
 }
+
+.world__section{
+    background-color: $color-pry;
+    color: $color-white;
+    .world__container--flex{
+        @include dflexcomp;
+    }
+}
